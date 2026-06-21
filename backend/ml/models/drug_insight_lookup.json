@@ -1,0 +1,3789 @@
+[
+  {
+    "drug_key": "abilify",
+    "review_count": 8,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 3.57,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "acanya",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "cystic acne"
+  },
+  {
+    "drug_key": "accolate",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "capsuar contracture of breast implant"
+  },
+  {
+    "drug_key": "accupril",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hypertension"
+  },
+  {
+    "drug_key": "accutane",
+    "review_count": 44,
+    "avg_effectiveness_score": 4.32,
+    "avg_side_effect_score": 3.02,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "aciphex",
+    "review_count": 6,
+    "avg_effectiveness_score": 4.67,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "acid reflux"
+  },
+  {
+    "drug_key": "actiq",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "chronic pain"
+  },
+  {
+    "drug_key": "actonel",
+    "review_count": 8,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.57,
+    "most_common_condition": "osteoporosis"
+  },
+  {
+    "drug_key": "actos",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "diabetes"
+  },
+  {
+    "drug_key": "acyclovir",
+    "review_count": 12,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.55,
+    "most_common_condition": "herpes"
+  },
+  {
+    "drug_key": "aczone",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "adcirca",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "difficulty getting/holding erection"
+  },
+  {
+    "drug_key": "adderall",
+    "review_count": 23,
+    "avg_effectiveness_score": 4.22,
+    "avg_side_effect_score": 3.64,
+    "most_common_condition": "add"
+  },
+  {
+    "drug_key": "adderall-xr",
+    "review_count": 12,
+    "avg_effectiveness_score": 4.25,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "adhd"
+  },
+  {
+    "drug_key": "adipex-p",
+    "review_count": 31,
+    "avg_effectiveness_score": 4.13,
+    "avg_side_effect_score": 3.41,
+    "most_common_condition": "weight loss"
+  },
+  {
+    "drug_key": "advair-diskus",
+    "review_count": 8,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 4.29,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "advair-hfa",
+    "review_count": 6,
+    "avg_effectiveness_score": 3.67,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "albuterol",
+    "review_count": 10,
+    "avg_effectiveness_score": 4.1,
+    "avg_side_effect_score": 4.44,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "aldactone",
+    "review_count": 8,
+    "avg_effectiveness_score": 3.62,
+    "avg_side_effect_score": 3.62,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "aldara",
+    "review_count": 7,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 2.67,
+    "most_common_condition": "basal cell and squamous cancer"
+  },
+  {
+    "drug_key": "alendronate",
+    "review_count": 4,
+    "avg_effectiveness_score": 2.75,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "osteopenia"
+  },
+  {
+    "drug_key": "alesse",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "pregnancy prevention"
+  },
+  {
+    "drug_key": "allegra",
+    "review_count": 23,
+    "avg_effectiveness_score": 3.7,
+    "avg_side_effect_score": 4.35,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "allegra-d",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "aloprim",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "gout"
+  },
+  {
+    "drug_key": "alprazolam",
+    "review_count": 13,
+    "avg_effectiveness_score": 4.31,
+    "avg_side_effect_score": 3.85,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "ambien",
+    "review_count": 34,
+    "avg_effectiveness_score": 3.88,
+    "avg_side_effect_score": 3.39,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "ambien-cr",
+    "review_count": 17,
+    "avg_effectiveness_score": 3.82,
+    "avg_side_effect_score": 4.07,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "amerge",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "migraines"
+  },
+  {
+    "drug_key": "amitiza",
+    "review_count": 2,
+    "avg_effectiveness_score": 1.5,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "ibs"
+  },
+  {
+    "drug_key": "amoxil",
+    "review_count": 23,
+    "avg_effectiveness_score": 2.83,
+    "avg_side_effect_score": 3.4,
+    "most_common_condition": "chest infection"
+  },
+  {
+    "drug_key": "amphetamine",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "add"
+  },
+  {
+    "drug_key": "ampicillin",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "anafranil",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.33,
+    "avg_side_effect_score": 2.67,
+    "most_common_condition": "ocd"
+  },
+  {
+    "drug_key": "androgel",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "male andropause"
+  },
+  {
+    "drug_key": "angeliq",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "menopausal symptoms - hot flashes, sleep disturban"
+  },
+  {
+    "drug_key": "antivert",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.67,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "b.p.p.v. (benign proxysmal positional vertigo)"
+  },
+  {
+    "drug_key": "aralen",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "malaria"
+  },
+  {
+    "drug_key": "arava",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.67,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "arthritis"
+  },
+  {
+    "drug_key": "aricept",
+    "review_count": 9,
+    "avg_effectiveness_score": 2.89,
+    "avg_side_effect_score": 2.25,
+    "most_common_condition": "2"
+  },
+  {
+    "drug_key": "arimidex",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "post breast cancer"
+  },
+  {
+    "drug_key": "armour-thyroid",
+    "review_count": 14,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "hypothyroid"
+  },
+  {
+    "drug_key": "aromasin",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "breast cancer"
+  },
+  {
+    "drug_key": "arthrotec",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "arthritis"
+  },
+  {
+    "drug_key": "asacol",
+    "review_count": 5,
+    "avg_effectiveness_score": 3.2,
+    "avg_side_effect_score": 4.25,
+    "most_common_condition": "ulcerative colitis"
+  },
+  {
+    "drug_key": "asmanex",
+    "review_count": 3,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "atacand",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "atarax",
+    "review_count": 3,
+    "avg_effectiveness_score": 2.33,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "atenolol",
+    "review_count": 12,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 3.83,
+    "most_common_condition": "hypertension"
+  },
+  {
+    "drug_key": "ativan",
+    "review_count": 17,
+    "avg_effectiveness_score": 3.65,
+    "avg_side_effect_score": 3.38,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "atripla",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "hiv"
+  },
+  {
+    "drug_key": "augmentin",
+    "review_count": 24,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 2.96,
+    "most_common_condition": "sinus infection"
+  },
+  {
+    "drug_key": "avage",
+    "review_count": 7,
+    "avg_effectiveness_score": 3.86,
+    "avg_side_effect_score": 3.57,
+    "most_common_condition": "wrinkles"
+  },
+  {
+    "drug_key": "avapro",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "high blood pressure after prewgnancy"
+  },
+  {
+    "drug_key": "avelox",
+    "review_count": 10,
+    "avg_effectiveness_score": 2.2,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "sinus infection"
+  },
+  {
+    "drug_key": "avita",
+    "review_count": 19,
+    "avg_effectiveness_score": 3.37,
+    "avg_side_effect_score": 3.74,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "avodart",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "alopecia"
+  },
+  {
+    "drug_key": "axert",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "migraine"
+  },
+  {
+    "drug_key": "aygestin",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "endometriosis"
+  },
+  {
+    "drug_key": "azasan",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "ulcerative colitis"
+  },
+  {
+    "drug_key": "azelex",
+    "review_count": 2,
+    "avg_effectiveness_score": 2.5,
+    "avg_side_effect_score": 2.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "azopt",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "glaucoma"
+  },
+  {
+    "drug_key": "azor",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "anxiety attacks"
+  },
+  {
+    "drug_key": "azulfidine",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "colitis"
+  },
+  {
+    "drug_key": "baciim",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "simple laceration"
+  },
+  {
+    "drug_key": "baclofen",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 2.75,
+    "most_common_condition": "alcohol addiction"
+  },
+  {
+    "drug_key": "bactrim-ds",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "ballanitis"
+  },
+  {
+    "drug_key": "bactroban",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": NaN,
+    "most_common_condition": "amputee, constant sores on stump"
+  },
+  {
+    "drug_key": "baraclude",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hepatitis b"
+  },
+  {
+    "drug_key": "benadryl",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.67,
+    "avg_side_effect_score": 1.67,
+    "most_common_condition": "allergic reaction"
+  },
+  {
+    "drug_key": "benicar",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.67,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "benicar-hct",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "hypertension"
+  },
+  {
+    "drug_key": "bentyl",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "diaheria assc. w/ chemo"
+  },
+  {
+    "drug_key": "benzaclin",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "betamethasone",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "eczema"
+  },
+  {
+    "drug_key": "betaseron",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "multiple sclerosis"
+  },
+  {
+    "drug_key": "biaxin",
+    "review_count": 21,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 2.95,
+    "most_common_condition": "sinus infection"
+  },
+  {
+    "drug_key": "biaxin-xl",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "sinusitis"
+  },
+  {
+    "drug_key": "bisoprolol",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "palpitations"
+  },
+  {
+    "drug_key": "boniva",
+    "review_count": 2,
+    "avg_effectiveness_score": 2.5,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "osteoporosis"
+  },
+  {
+    "drug_key": "botox",
+    "review_count": 9,
+    "avg_effectiveness_score": 4.22,
+    "avg_side_effect_score": 3.11,
+    "most_common_condition": "wrinkles"
+  },
+  {
+    "drug_key": "buprenorphine",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "major depression"
+  },
+  {
+    "drug_key": "buspar",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.25,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "byetta",
+    "review_count": 7,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.57,
+    "most_common_condition": "diabetes"
+  },
+  {
+    "drug_key": "bystolic",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "heart palpitations"
+  },
+  {
+    "drug_key": "caduet",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "cholesterol/high blood pressure"
+  },
+  {
+    "drug_key": "capoten",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "carac",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.33,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "actinic keratoses"
+  },
+  {
+    "drug_key": "carbamazepine",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "seizure"
+  },
+  {
+    "drug_key": "cardura",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "problems with my prostate"
+  },
+  {
+    "drug_key": "cardura-xl",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "bph"
+  },
+  {
+    "drug_key": "cataflam",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "lower back pain"
+  },
+  {
+    "drug_key": "catapres",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "ceclor",
+    "review_count": 2,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "ear infection"
+  },
+  {
+    "drug_key": "cefzil",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "ear infection"
+  },
+  {
+    "drug_key": "celebrex",
+    "review_count": 18,
+    "avg_effectiveness_score": 3.33,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "arthritis"
+  },
+  {
+    "drug_key": "celexa",
+    "review_count": 23,
+    "avg_effectiveness_score": 3.61,
+    "avg_side_effect_score": 2.95,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "chantix",
+    "review_count": 44,
+    "avg_effectiveness_score": 4.32,
+    "avg_side_effect_score": 3.08,
+    "most_common_condition": "smoking cessation"
+  },
+  {
+    "drug_key": "cialis",
+    "review_count": 7,
+    "avg_effectiveness_score": 4.57,
+    "avg_side_effect_score": 4.14,
+    "most_common_condition": "ed"
+  },
+  {
+    "drug_key": "cipro",
+    "review_count": 24,
+    "avg_effectiveness_score": 2.79,
+    "avg_side_effect_score": 3.38,
+    "most_common_condition": "uti"
+  },
+  {
+    "drug_key": "citalopram",
+    "review_count": 33,
+    "avg_effectiveness_score": 3.82,
+    "avg_side_effect_score": 3.28,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "clarinex",
+    "review_count": 5,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.8,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "claripel-cream",
+    "review_count": 11,
+    "avg_effectiveness_score": 2.91,
+    "avg_side_effect_score": 3.91,
+    "most_common_condition": "pigmentation"
+  },
+  {
+    "drug_key": "clarithromycin",
+    "review_count": 5,
+    "avg_effectiveness_score": 3.8,
+    "avg_side_effect_score": 3.4,
+    "most_common_condition": "lower respiratory tract infection"
+  },
+  {
+    "drug_key": "claritin",
+    "review_count": 20,
+    "avg_effectiveness_score": 2.85,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "cleocin",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 2.67,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "climara",
+    "review_count": 10,
+    "avg_effectiveness_score": 3.9,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "menopausal"
+  },
+  {
+    "drug_key": "climara-pro",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 2.0,
+    "most_common_condition": "hot flashes"
+  },
+  {
+    "drug_key": "clindamycin",
+    "review_count": 8,
+    "avg_effectiveness_score": 2.62,
+    "avg_side_effect_score": 2.0,
+    "most_common_condition": "dental surgery"
+  },
+  {
+    "drug_key": "clindamycin-topical",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "clobetasol",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "psoraisis"
+  },
+  {
+    "drug_key": "clobex",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "contact dermatitis"
+  },
+  {
+    "drug_key": "clomid",
+    "review_count": 5,
+    "avg_effectiveness_score": 4.2,
+    "avg_side_effect_score": 3.8,
+    "most_common_condition": "infertility"
+  },
+  {
+    "drug_key": "clonazepam",
+    "review_count": 13,
+    "avg_effectiveness_score": 4.15,
+    "avg_side_effect_score": 3.46,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "combipatch",
+    "review_count": 2,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "menopause"
+  },
+  {
+    "drug_key": "compazine",
+    "review_count": 2,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": NaN,
+    "most_common_condition": "headache"
+  },
+  {
+    "drug_key": "concerta",
+    "review_count": 13,
+    "avg_effectiveness_score": 3.62,
+    "avg_side_effect_score": 3.38,
+    "most_common_condition": "adhd"
+  },
+  {
+    "drug_key": "copaxone",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "mulitple sclerosis"
+  },
+  {
+    "drug_key": "coreg",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.33,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "heart"
+  },
+  {
+    "drug_key": "corgard",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "cosopt",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "glaucoma"
+  },
+  {
+    "drug_key": "coumadin",
+    "review_count": 6,
+    "avg_effectiveness_score": 4.17,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "blood clots"
+  },
+  {
+    "drug_key": "cozaar",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.25,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "blood pressure"
+  },
+  {
+    "drug_key": "crestor",
+    "review_count": 15,
+    "avg_effectiveness_score": 4.47,
+    "avg_side_effect_score": 3.6,
+    "most_common_condition": "high cholesterol"
+  },
+  {
+    "drug_key": "cymbalta",
+    "review_count": 41,
+    "avg_effectiveness_score": 3.68,
+    "avg_side_effect_score": 3.58,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "cyproheptadine",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.33,
+    "avg_side_effect_score": 2.33,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "cytomel",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.75,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "hypothyroidism"
+  },
+  {
+    "drug_key": "danazol",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "endometriosis"
+  },
+  {
+    "drug_key": "dapsone",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "dermatitis herpetiformis"
+  },
+  {
+    "drug_key": "darvocet-n",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "arthritic joint pain/carpal tunnel"
+  },
+  {
+    "drug_key": "delestrogen",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "menopause/hysterectomy"
+  },
+  {
+    "drug_key": "deltasone",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "crohn's disease"
+  },
+  {
+    "drug_key": "depakene",
+    "review_count": 2,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "bipolar disorder"
+  },
+  {
+    "drug_key": "depakote",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 2.5,
+    "most_common_condition": "bi-polar disorder"
+  },
+  {
+    "drug_key": "depo-provera",
+    "review_count": 13,
+    "avg_effectiveness_score": 4.85,
+    "avg_side_effect_score": 2.75,
+    "most_common_condition": "birth control"
+  },
+  {
+    "drug_key": "desmopressin",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "weak bladder  wet bed"
+  },
+  {
+    "drug_key": "desonide",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "exzema of the face"
+  },
+  {
+    "drug_key": "desyrel",
+    "review_count": 14,
+    "avg_effectiveness_score": 3.07,
+    "avg_side_effect_score": 2.77,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "detrol",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "urgency to urinate"
+  },
+  {
+    "drug_key": "detrol-la",
+    "review_count": 6,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "overactive bladder"
+  },
+  {
+    "drug_key": "dexamethasone",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "bronchial infection"
+  },
+  {
+    "drug_key": "dexedrine",
+    "review_count": 4,
+    "avg_effectiveness_score": 2.75,
+    "avg_side_effect_score": 2.33,
+    "most_common_condition": "add"
+  },
+  {
+    "drug_key": "dextroamphetamine",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.67,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "add"
+  },
+  {
+    "drug_key": "dextrostat",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "add"
+  },
+  {
+    "drug_key": "diazepam",
+    "review_count": 9,
+    "avg_effectiveness_score": 3.78,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "airplane flight anxiety"
+  },
+  {
+    "drug_key": "diclofenac",
+    "review_count": 10,
+    "avg_effectiveness_score": 4.2,
+    "avg_side_effect_score": 3.8,
+    "most_common_condition": "arthritis"
+  },
+  {
+    "drug_key": "dicyclomine",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "ibs"
+  },
+  {
+    "drug_key": "differin",
+    "review_count": 38,
+    "avg_effectiveness_score": 3.34,
+    "avg_side_effect_score": 3.71,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "diflucan",
+    "review_count": 4,
+    "avg_effectiveness_score": 2.75,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "yeast infection"
+  },
+  {
+    "drug_key": "dilantin",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.25,
+    "avg_side_effect_score": 2.75,
+    "most_common_condition": "seizures"
+  },
+  {
+    "drug_key": "dilaudid",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "broken ribs"
+  },
+  {
+    "drug_key": "diltiazem",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "atrial fib"
+  },
+  {
+    "drug_key": "diovan",
+    "review_count": 8,
+    "avg_effectiveness_score": 4.12,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "dispermox",
+    "review_count": 10,
+    "avg_effectiveness_score": 2.8,
+    "avg_side_effect_score": 3.3,
+    "most_common_condition": "ear infection"
+  },
+  {
+    "drug_key": "ditropan",
+    "review_count": 3,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "hyperhidrosis"
+  },
+  {
+    "drug_key": "divigel",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.75,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "menopause"
+  },
+  {
+    "drug_key": "doryx",
+    "review_count": 10,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.7,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "dostinex",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.33,
+    "most_common_condition": "microprolactinoma (benign pituitary tumour)"
+  },
+  {
+    "drug_key": "dovonex",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "psoriasis"
+  },
+  {
+    "drug_key": "doxepin",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "doxycycline",
+    "review_count": 38,
+    "avg_effectiveness_score": 3.21,
+    "avg_side_effect_score": 3.38,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "duac",
+    "review_count": 7,
+    "avg_effectiveness_score": 3.14,
+    "avg_side_effect_score": 3.86,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "duragesic",
+    "review_count": 4,
+    "avg_effectiveness_score": 2.75,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "cancer related pain"
+  },
+  {
+    "drug_key": "dyazide",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "general fluid retention"
+  },
+  {
+    "drug_key": "dyrenium",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "dysport",
+    "review_count": 2,
+    "avg_effectiveness_score": 2.5,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "brow wrinkles"
+  },
+  {
+    "drug_key": "ecotrin",
+    "review_count": 7,
+    "avg_effectiveness_score": 4.29,
+    "avg_side_effect_score": 4.43,
+    "most_common_condition": "headache"
+  },
+  {
+    "drug_key": "effexor",
+    "review_count": 46,
+    "avg_effectiveness_score": 3.54,
+    "avg_side_effect_score": 2.83,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "effexor-xr",
+    "review_count": 46,
+    "avg_effectiveness_score": 3.65,
+    "avg_side_effect_score": 3.22,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "efudex",
+    "review_count": 3,
+    "avg_effectiveness_score": 2.67,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "actinic keratoses"
+  },
+  {
+    "drug_key": "elavil",
+    "review_count": 22,
+    "avg_effectiveness_score": 4.09,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "fibromyalgia"
+  },
+  {
+    "drug_key": "elidel",
+    "review_count": 9,
+    "avg_effectiveness_score": 3.11,
+    "avg_side_effect_score": 4.44,
+    "most_common_condition": "eczema"
+  },
+  {
+    "drug_key": "elmiron",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "interstitial cystitis"
+  },
+  {
+    "drug_key": "elocon",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.67,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "eczema"
+  },
+  {
+    "drug_key": "emsam",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "enablex",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "bladder control"
+  },
+  {
+    "drug_key": "enalapril",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "enbrel",
+    "review_count": 14,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 4.23,
+    "most_common_condition": "ankylosing spondylitis"
+  },
+  {
+    "drug_key": "erythra-derm",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "erythromycin",
+    "review_count": 7,
+    "avg_effectiveness_score": 2.14,
+    "avg_side_effect_score": 2.33,
+    "most_common_condition": "sinus infection"
+  },
+  {
+    "drug_key": "estrace",
+    "review_count": 8,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 4.25,
+    "most_common_condition": "surgical menopause"
+  },
+  {
+    "drug_key": "estrasorb",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "menopausal hot flashes"
+  },
+  {
+    "drug_key": "estratest",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "extreme hot flashes"
+  },
+  {
+    "drug_key": "estring",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "post menopause"
+  },
+  {
+    "drug_key": "estrostep-fe",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "contraceptive"
+  },
+  {
+    "drug_key": "etodolac",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "osteo-arthritis"
+  },
+  {
+    "drug_key": "eulexin",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "evista",
+    "review_count": 11,
+    "avg_effectiveness_score": 3.55,
+    "avg_side_effect_score": 3.7,
+    "most_common_condition": "loss of bone density"
+  },
+  {
+    "drug_key": "evoclin",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "exelon",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "memory"
+  },
+  {
+    "drug_key": "famvir",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "chronic fatigue - epstein barr virus"
+  },
+  {
+    "drug_key": "femara",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "breast cancer"
+  },
+  {
+    "drug_key": "femhrt",
+    "review_count": 2,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "menopause"
+  },
+  {
+    "drug_key": "femring",
+    "review_count": 3,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hrt (hormone replacement therapy)"
+  },
+  {
+    "drug_key": "fentanyl",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 2.5,
+    "most_common_condition": "chronic pain due to neck injury and surgeries"
+  },
+  {
+    "drug_key": "fexofenadine",
+    "review_count": 5,
+    "avg_effectiveness_score": 3.8,
+    "avg_side_effect_score": 4.8,
+    "most_common_condition": "allergic rhinitis"
+  },
+  {
+    "drug_key": "finacea",
+    "review_count": 9,
+    "avg_effectiveness_score": 3.22,
+    "avg_side_effect_score": 4.44,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "fioricet",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.33,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "migraines"
+  },
+  {
+    "drug_key": "fiorinal",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 4.25,
+    "most_common_condition": "headaches"
+  },
+  {
+    "drug_key": "flagyl",
+    "review_count": 10,
+    "avg_effectiveness_score": 3.3,
+    "avg_side_effect_score": 3.14,
+    "most_common_condition": "bacterial vaginosis"
+  },
+  {
+    "drug_key": "flecainide",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "atrial fibulation"
+  },
+  {
+    "drug_key": "flexeril",
+    "review_count": 25,
+    "avg_effectiveness_score": 3.88,
+    "avg_side_effect_score": 3.56,
+    "most_common_condition": "muscle spasms"
+  },
+  {
+    "drug_key": "flomax",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.67,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "bph"
+  },
+  {
+    "drug_key": "flonase",
+    "review_count": 30,
+    "avg_effectiveness_score": 4.43,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "flovent",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "fluconazole",
+    "review_count": 5,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.75,
+    "most_common_condition": "yeast infection"
+  },
+  {
+    "drug_key": "fluvoxamine",
+    "review_count": 4,
+    "avg_effectiveness_score": 2.75,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "anxiety/worry"
+  },
+  {
+    "drug_key": "focalin-xr",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "adhd"
+  },
+  {
+    "drug_key": "follistim",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "infertility"
+  },
+  {
+    "drug_key": "fortaz",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "uti"
+  },
+  {
+    "drug_key": "fosamax",
+    "review_count": 20,
+    "avg_effectiveness_score": 2.65,
+    "avg_side_effect_score": 3.85,
+    "most_common_condition": "osteoporosis"
+  },
+  {
+    "drug_key": "fosamax-plus-d",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "osteoporosis"
+  },
+  {
+    "drug_key": "fosinopril",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "frova",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "migraine headache"
+  },
+  {
+    "drug_key": "furosemide-injection",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": NaN,
+    "most_common_condition": "chf"
+  },
+  {
+    "drug_key": "galzin",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "mucus in stool"
+  },
+  {
+    "drug_key": "genotropin",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "myalgic encephalomyelitis/cfs"
+  },
+  {
+    "drug_key": "geodon",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "bi-polar disorder"
+  },
+  {
+    "drug_key": "glucophage",
+    "review_count": 9,
+    "avg_effectiveness_score": 3.67,
+    "avg_side_effect_score": 3.56,
+    "most_common_condition": "diabetes"
+  },
+  {
+    "drug_key": "glucophage-xr",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "diabetes type ii"
+  },
+  {
+    "drug_key": "glyquin-xm",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "melasma"
+  },
+  {
+    "drug_key": "gonal-f-rff",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "increase follicle production prior to iui"
+  },
+  {
+    "drug_key": "grifulvin-v",
+    "review_count": 2,
+    "avg_effectiveness_score": 1.5,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "fungus"
+  },
+  {
+    "drug_key": "halcion",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "haldol",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "psychotic out nof control patient"
+  },
+  {
+    "drug_key": "humira",
+    "review_count": 11,
+    "avg_effectiveness_score": 4.27,
+    "avg_side_effect_score": 4.18,
+    "most_common_condition": "rheumatoid arthritis"
+  },
+  {
+    "drug_key": "hydrochlorothiazide",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.67,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "fluid retention increased bp"
+  },
+  {
+    "drug_key": "hydrocodone-and-acetaminophen",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "cervical spondylosis"
+  },
+  {
+    "drug_key": "hydrocortisone",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "eczema"
+  },
+  {
+    "drug_key": "hyoscyamine",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "irritable bowel syndrome"
+  },
+  {
+    "drug_key": "hytrin",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "high blood presure"
+  },
+  {
+    "drug_key": "hyzaar",
+    "review_count": 6,
+    "avg_effectiveness_score": 4.17,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "imitrex",
+    "review_count": 30,
+    "avg_effectiveness_score": 4.37,
+    "avg_side_effect_score": 3.93,
+    "most_common_condition": "migraine"
+  },
+  {
+    "drug_key": "imodium",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "diarrhea"
+  },
+  {
+    "drug_key": "imuran",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "crohn's disease"
+  },
+  {
+    "drug_key": "inderal",
+    "review_count": 5,
+    "avg_effectiveness_score": 3.8,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "situational anxiety"
+  },
+  {
+    "drug_key": "indocin",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "rheumatoid arthritis"
+  },
+  {
+    "drug_key": "innofem",
+    "review_count": 5,
+    "avg_effectiveness_score": 4.4,
+    "avg_side_effect_score": 4.8,
+    "most_common_condition": "hormone replacement"
+  },
+  {
+    "drug_key": "inspra",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "conn's syndrome"
+  },
+  {
+    "drug_key": "isoniazid",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "tuberculosis"
+  },
+  {
+    "drug_key": "kapidex",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "reflux"
+  },
+  {
+    "drug_key": "keflex",
+    "review_count": 14,
+    "avg_effectiveness_score": 3.21,
+    "avg_side_effect_score": 3.73,
+    "most_common_condition": "bladder infections"
+  },
+  {
+    "drug_key": "kenalog",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "keppra",
+    "review_count": 5,
+    "avg_effectiveness_score": 4.4,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "anti seizure"
+  },
+  {
+    "drug_key": "ketoconazole",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "ringworm/pityriasis"
+  },
+  {
+    "drug_key": "ketorolac",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "pain, muscle strain"
+  },
+  {
+    "drug_key": "klaron",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.33,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "klonopin",
+    "review_count": 17,
+    "avg_effectiveness_score": 3.65,
+    "avg_side_effect_score": 4.07,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "lac-hydrin",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "extremely dry skin"
+  },
+  {
+    "drug_key": "lamictal",
+    "review_count": 39,
+    "avg_effectiveness_score": 4.21,
+    "avg_side_effect_score": 3.87,
+    "most_common_condition": "bipolar ii"
+  },
+  {
+    "drug_key": "lamisil",
+    "review_count": 14,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.36,
+    "most_common_condition": "toenail fungus"
+  },
+  {
+    "drug_key": "lamotrigine",
+    "review_count": 12,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 2.9,
+    "most_common_condition": "bipolar disorder"
+  },
+  {
+    "drug_key": "lantus",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "insulin dependent diabetes mellitus"
+  },
+  {
+    "drug_key": "lasix",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "congestive heart failure and edema"
+  },
+  {
+    "drug_key": "latisse",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.25,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "sparse eyelashes"
+  },
+  {
+    "drug_key": "levaquin",
+    "review_count": 12,
+    "avg_effectiveness_score": 2.83,
+    "avg_side_effect_score": 2.62,
+    "most_common_condition": "sinus infection"
+  },
+  {
+    "drug_key": "levetiracetam",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": NaN,
+    "most_common_condition": "right temporal lobe epilepsy"
+  },
+  {
+    "drug_key": "levitra",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "ed"
+  },
+  {
+    "drug_key": "levora",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "birth control pill"
+  },
+  {
+    "drug_key": "levothroid",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.33,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hypothyroidism"
+  },
+  {
+    "drug_key": "levoxyl",
+    "review_count": 24,
+    "avg_effectiveness_score": 3.83,
+    "avg_side_effect_score": 3.96,
+    "most_common_condition": "hypothyroidism"
+  },
+  {
+    "drug_key": "lexapro",
+    "review_count": 74,
+    "avg_effectiveness_score": 3.57,
+    "avg_side_effect_score": 3.7,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "lidex",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "dermatitis"
+  },
+  {
+    "drug_key": "lidocaine",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "nerve and muscle pain"
+  },
+  {
+    "drug_key": "lipitor",
+    "review_count": 42,
+    "avg_effectiveness_score": 3.9,
+    "avg_side_effect_score": 3.9,
+    "most_common_condition": "high cholesterol"
+  },
+  {
+    "drug_key": "lithium-carbonate",
+    "review_count": 5,
+    "avg_effectiveness_score": 3.6,
+    "avg_side_effect_score": 3.8,
+    "most_common_condition": "bipolar"
+  },
+  {
+    "drug_key": "lo-ovral",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "acne and contraception"
+  },
+  {
+    "drug_key": "locoid-lipocream",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "nummular eczema"
+  },
+  {
+    "drug_key": "lodine",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "pain"
+  },
+  {
+    "drug_key": "lopressor",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "lorazepam",
+    "review_count": 11,
+    "avg_effectiveness_score": 4.36,
+    "avg_side_effect_score": 3.55,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "lortab",
+    "review_count": 6,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 2.5,
+    "most_common_condition": "oral surgery"
+  },
+  {
+    "drug_key": "lotrel",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.33,
+    "avg_side_effect_score": 2.67,
+    "most_common_condition": "blood pressure"
+  },
+  {
+    "drug_key": "lotronex",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "irritable bowel syndrom"
+  },
+  {
+    "drug_key": "lovenox",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "blood clot as a cause of early stage misscarriage"
+  },
+  {
+    "drug_key": "lumigan",
+    "review_count": 12,
+    "avg_effectiveness_score": 4.17,
+    "avg_side_effect_score": 3.75,
+    "most_common_condition": "glaucoma"
+  },
+  {
+    "drug_key": "lunesta",
+    "review_count": 19,
+    "avg_effectiveness_score": 3.32,
+    "avg_side_effect_score": 3.21,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "lupron",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 2.0,
+    "most_common_condition": "endometriosis"
+  },
+  {
+    "drug_key": "lybrel",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "no more monthly periods"
+  },
+  {
+    "drug_key": "lyrica",
+    "review_count": 30,
+    "avg_effectiveness_score": 3.07,
+    "avg_side_effect_score": 2.7,
+    "most_common_condition": "fibromyalgia"
+  },
+  {
+    "drug_key": "macrobid",
+    "review_count": 11,
+    "avg_effectiveness_score": 2.73,
+    "avg_side_effect_score": 3.14,
+    "most_common_condition": "uti"
+  },
+  {
+    "drug_key": "malarone",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 2.75,
+    "most_common_condition": "malaria prevention"
+  },
+  {
+    "drug_key": "maxalt",
+    "review_count": 10,
+    "avg_effectiveness_score": 4.9,
+    "avg_side_effect_score": 4.2,
+    "most_common_condition": "migraine"
+  },
+  {
+    "drug_key": "medroxyprogesterone",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "heavy periods, thickened endometrium"
+  },
+  {
+    "drug_key": "meperidine",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "painkiller after surgery"
+  },
+  {
+    "drug_key": "mercaptopurine",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "crohn's disease"
+  },
+  {
+    "drug_key": "meridia",
+    "review_count": 16,
+    "avg_effectiveness_score": 4.69,
+    "avg_side_effect_score": 4.06,
+    "most_common_condition": "obesity"
+  },
+  {
+    "drug_key": "metformin",
+    "review_count": 20,
+    "avg_effectiveness_score": 4.05,
+    "avg_side_effect_score": 3.79,
+    "most_common_condition": "diabetes"
+  },
+  {
+    "drug_key": "metformin-extended-release",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "diabetes"
+  },
+  {
+    "drug_key": "methadone",
+    "review_count": 8,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 3.57,
+    "most_common_condition": "opiate addiction"
+  },
+  {
+    "drug_key": "methimazole",
+    "review_count": 3,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hyperthyroidism"
+  },
+  {
+    "drug_key": "methotrexate",
+    "review_count": 18,
+    "avg_effectiveness_score": 4.17,
+    "avg_side_effect_score": 3.47,
+    "most_common_condition": "rheumatoid arthritis"
+  },
+  {
+    "drug_key": "methylphenidate",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "adult  add"
+  },
+  {
+    "drug_key": "metoclopramide",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "nausea"
+  },
+  {
+    "drug_key": "metoprolol",
+    "review_count": 5,
+    "avg_effectiveness_score": 4.2,
+    "avg_side_effect_score": 4.8,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "metrogel",
+    "review_count": 19,
+    "avg_effectiveness_score": 2.47,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "rosacea"
+  },
+  {
+    "drug_key": "metrolotion",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "perioral dermamtitis"
+  },
+  {
+    "drug_key": "metronidazole",
+    "review_count": 8,
+    "avg_effectiveness_score": 2.62,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "bacterial growth"
+  },
+  {
+    "drug_key": "mevacor",
+    "review_count": 2,
+    "avg_effectiveness_score": 1.5,
+    "avg_side_effect_score": NaN,
+    "most_common_condition": "high cholesterol"
+  },
+  {
+    "drug_key": "micardis",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "minocin",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 2.67,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "minocycline",
+    "review_count": 20,
+    "avg_effectiveness_score": 3.15,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "minoxidil",
+    "review_count": 5,
+    "avg_effectiveness_score": 3.4,
+    "avg_side_effect_score": 4.4,
+    "most_common_condition": "hair loss"
+  },
+  {
+    "drug_key": "miralax",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "irritable bowel syndrome"
+  },
+  {
+    "drug_key": "mirapex",
+    "review_count": 6,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 3.6,
+    "most_common_condition": "restless leg syndrome"
+  },
+  {
+    "drug_key": "mirena",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "birth control"
+  },
+  {
+    "drug_key": "mirtazapine",
+    "review_count": 6,
+    "avg_effectiveness_score": 2.33,
+    "avg_side_effect_score": 3.17,
+    "most_common_condition": "anxiety and depression"
+  },
+  {
+    "drug_key": "mobic",
+    "review_count": 26,
+    "avg_effectiveness_score": 2.96,
+    "avg_side_effect_score": 3.76,
+    "most_common_condition": "arthritis"
+  },
+  {
+    "drug_key": "morphine",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "for tramflap surgery,implant removal"
+  },
+  {
+    "drug_key": "motrin",
+    "review_count": 15,
+    "avg_effectiveness_score": 3.93,
+    "avg_side_effect_score": 4.21,
+    "most_common_condition": "ankylosing spondalytis"
+  },
+  {
+    "drug_key": "naltrexone",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "crohn's"
+  },
+  {
+    "drug_key": "naprosyn",
+    "review_count": 5,
+    "avg_effectiveness_score": 2.4,
+    "avg_side_effect_score": 4.4,
+    "most_common_condition": "ankylosing spondylitis"
+  },
+  {
+    "drug_key": "naproxen",
+    "review_count": 18,
+    "avg_effectiveness_score": 2.94,
+    "avg_side_effect_score": 3.07,
+    "most_common_condition": "arthritis"
+  },
+  {
+    "drug_key": "nardil",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "depression (atypical)"
+  },
+  {
+    "drug_key": "nasacort",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "perennial rhinitis"
+  },
+  {
+    "drug_key": "nasacort-aq",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "sinusitis"
+  },
+  {
+    "drug_key": "nasarel",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "rhinitis"
+  },
+  {
+    "drug_key": "nasonex",
+    "review_count": 12,
+    "avg_effectiveness_score": 3.67,
+    "avg_side_effect_score": 4.36,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "neoprofen",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "earache"
+  },
+  {
+    "drug_key": "neurontin",
+    "review_count": 38,
+    "avg_effectiveness_score": 3.26,
+    "avg_side_effect_score": 3.09,
+    "most_common_condition": "chronic pain (neck and migraines)"
+  },
+  {
+    "drug_key": "nexium",
+    "review_count": 37,
+    "avg_effectiveness_score": 4.11,
+    "avg_side_effect_score": 4.49,
+    "most_common_condition": "acid reflux"
+  },
+  {
+    "drug_key": "niacor",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 2.5,
+    "most_common_condition": "high cholesterol"
+  },
+  {
+    "drug_key": "niaspan",
+    "review_count": 11,
+    "avg_effectiveness_score": 3.45,
+    "avg_side_effect_score": 3.73,
+    "most_common_condition": "high cholesterol"
+  },
+  {
+    "drug_key": "nitrofurantoin",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "chronic cystitis"
+  },
+  {
+    "drug_key": "nizoral",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hair loss"
+  },
+  {
+    "drug_key": "nizoral-shampoo",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "dandruff"
+  },
+  {
+    "drug_key": "nolvadex",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 2.25,
+    "most_common_condition": "breast cancer"
+  },
+  {
+    "drug_key": "nordette",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "pregnancy avoidance"
+  },
+  {
+    "drug_key": "noritate",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "rash under nasal area"
+  },
+  {
+    "drug_key": "noroxin",
+    "review_count": 3,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "urinary tract infection"
+  },
+  {
+    "drug_key": "norpramin",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "migraine"
+  },
+  {
+    "drug_key": "nortriptyline",
+    "review_count": 8,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "a typical migraines"
+  },
+  {
+    "drug_key": "norvasc",
+    "review_count": 15,
+    "avg_effectiveness_score": 3.73,
+    "avg_side_effect_score": 4.23,
+    "most_common_condition": "hypertension"
+  },
+  {
+    "drug_key": "nuvaring",
+    "review_count": 27,
+    "avg_effectiveness_score": 4.48,
+    "avg_side_effect_score": 3.7,
+    "most_common_condition": "birth control"
+  },
+  {
+    "drug_key": "nuvigil",
+    "review_count": 3,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 3.33,
+    "most_common_condition": "cocaine dependency"
+  },
+  {
+    "drug_key": "nystatin",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "candida rashes"
+  },
+  {
+    "drug_key": "olux",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "ezema on my hands"
+  },
+  {
+    "drug_key": "omacor",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "high cholesterol"
+  },
+  {
+    "drug_key": "omnicef",
+    "review_count": 12,
+    "avg_effectiveness_score": 2.08,
+    "avg_side_effect_score": 1.86,
+    "most_common_condition": "strep throat"
+  },
+  {
+    "drug_key": "omnitrope",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hgh deficiency & hiv"
+  },
+  {
+    "drug_key": "optivar",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "dry, allergic eyes"
+  },
+  {
+    "drug_key": "oracea",
+    "review_count": 8,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "rosacea"
+  },
+  {
+    "drug_key": "ortho-evra",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 1.67,
+    "most_common_condition": "birth control"
+  },
+  {
+    "drug_key": "ortho-novum",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "birth control"
+  },
+  {
+    "drug_key": "ortho-tri-cyclen",
+    "review_count": 21,
+    "avg_effectiveness_score": 4.57,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "birth control"
+  },
+  {
+    "drug_key": "ortho-tri-cyclen-lo",
+    "review_count": 6,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.33,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "oxazepam",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "oxybutynin",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "spastic bladder"
+  },
+  {
+    "drug_key": "oxycodone",
+    "review_count": 13,
+    "avg_effectiveness_score": 3.62,
+    "avg_side_effect_score": 2.85,
+    "most_common_condition": "pain"
+  },
+  {
+    "drug_key": "oxycodone-and-acetaminophen",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "neck and back pain"
+  },
+  {
+    "drug_key": "oxycontin",
+    "review_count": 9,
+    "avg_effectiveness_score": 4.11,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "acute and long term chronic and severe back pain"
+  },
+  {
+    "drug_key": "pamelor",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "panixine-disperdose",
+    "review_count": 7,
+    "avg_effectiveness_score": 3.14,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "skin infection"
+  },
+  {
+    "drug_key": "parlodel",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "high level of prolactin"
+  },
+  {
+    "drug_key": "pataday",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "allergic reaction"
+  },
+  {
+    "drug_key": "patanol",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "eye allergies"
+  },
+  {
+    "drug_key": "paxil",
+    "review_count": 58,
+    "avg_effectiveness_score": 3.45,
+    "avg_side_effect_score": 3.07,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "paxil-cr",
+    "review_count": 7,
+    "avg_effectiveness_score": 3.57,
+    "avg_side_effect_score": 2.0,
+    "most_common_condition": "anxiety/panic attacks"
+  },
+  {
+    "drug_key": "penicillin-v",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "strep throat"
+  },
+  {
+    "drug_key": "penlac",
+    "review_count": 2,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "toe nail fungus"
+  },
+  {
+    "drug_key": "pentasa",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.67,
+    "most_common_condition": "crohn's disease"
+  },
+  {
+    "drug_key": "pepcid",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hives"
+  },
+  {
+    "drug_key": "percocet",
+    "review_count": 11,
+    "avg_effectiveness_score": 4.18,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "acl surgery"
+  },
+  {
+    "drug_key": "periogard",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "dental surgery"
+  },
+  {
+    "drug_key": "periostat",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "rosacea"
+  },
+  {
+    "drug_key": "permapen",
+    "review_count": 2,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "tooth infection"
+  },
+  {
+    "drug_key": "phendimetrazine",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "weight loss"
+  },
+  {
+    "drug_key": "phenergan",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "nausea"
+  },
+  {
+    "drug_key": "pilocarpine",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "high intraocular pressure (glaucoma)"
+  },
+  {
+    "drug_key": "piroxicam",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "osteo arthritis"
+  },
+  {
+    "drug_key": "plavix",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.25,
+    "avg_side_effect_score": 4.25,
+    "most_common_condition": "after an angiogram"
+  },
+  {
+    "drug_key": "plendil",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "hypertention"
+  },
+  {
+    "drug_key": "polymyxin-b",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "conjunctivitis"
+  },
+  {
+    "drug_key": "ponstel",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.33,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "menstrual cramps"
+  },
+  {
+    "drug_key": "pravachol",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "ldl cholesterol"
+  },
+  {
+    "drug_key": "prednisolone",
+    "review_count": 8,
+    "avg_effectiveness_score": 3.62,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "allergy reaction on the face incl swollen face"
+  },
+  {
+    "drug_key": "prednisone",
+    "review_count": 26,
+    "avg_effectiveness_score": 3.69,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "premarin",
+    "review_count": 22,
+    "avg_effectiveness_score": 4.23,
+    "avg_side_effect_score": 4.47,
+    "most_common_condition": "menopause"
+  },
+  {
+    "drug_key": "premarin-vaginal",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "vaginal dryness"
+  },
+  {
+    "drug_key": "prempro",
+    "review_count": 20,
+    "avg_effectiveness_score": 4.25,
+    "avg_side_effect_score": 4.61,
+    "most_common_condition": "menopause"
+  },
+  {
+    "drug_key": "prevacid",
+    "review_count": 22,
+    "avg_effectiveness_score": 3.82,
+    "avg_side_effect_score": 4.24,
+    "most_common_condition": "acid reflux"
+  },
+  {
+    "drug_key": "prevalite",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "diarreah"
+  },
+  {
+    "drug_key": "prilosec",
+    "review_count": 25,
+    "avg_effectiveness_score": 3.88,
+    "avg_side_effect_score": 4.77,
+    "most_common_condition": "acid reflux"
+  },
+  {
+    "drug_key": "prinivil",
+    "review_count": 29,
+    "avg_effectiveness_score": 3.76,
+    "avg_side_effect_score": 3.65,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "pristiq",
+    "review_count": 11,
+    "avg_effectiveness_score": 3.55,
+    "avg_side_effect_score": 3.2,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "proair-hfa",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "prochlorperazine",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "nausea"
+  },
+  {
+    "drug_key": "progesterone",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "severe stomach pains, dizziness"
+  },
+  {
+    "drug_key": "prograf",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "anti-rejection"
+  },
+  {
+    "drug_key": "proloprim",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "prometrium",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.75,
+    "most_common_condition": "menapouse"
+  },
+  {
+    "drug_key": "propecia",
+    "review_count": 43,
+    "avg_effectiveness_score": 3.42,
+    "avg_side_effect_score": 3.55,
+    "most_common_condition": "hair loss"
+  },
+  {
+    "drug_key": "propranolol",
+    "review_count": 5,
+    "avg_effectiveness_score": 3.6,
+    "avg_side_effect_score": 3.2,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "propylthiouracil",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hyperthyroid - graves disease"
+  },
+  {
+    "drug_key": "proquin-xr",
+    "review_count": 7,
+    "avg_effectiveness_score": 3.71,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "chest infections"
+  },
+  {
+    "drug_key": "proscar",
+    "review_count": 12,
+    "avg_effectiveness_score": 3.83,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "hair loss"
+  },
+  {
+    "drug_key": "protonix",
+    "review_count": 19,
+    "avg_effectiveness_score": 4.26,
+    "avg_side_effect_score": 4.82,
+    "most_common_condition": "acid reflux"
+  },
+  {
+    "drug_key": "protopic",
+    "review_count": 8,
+    "avg_effectiveness_score": 2.38,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "eczema"
+  },
+  {
+    "drug_key": "provera",
+    "review_count": 5,
+    "avg_effectiveness_score": 4.4,
+    "avg_side_effect_score": 3.75,
+    "most_common_condition": "endometrial hyperplasia"
+  },
+  {
+    "drug_key": "provigil",
+    "review_count": 30,
+    "avg_effectiveness_score": 4.07,
+    "avg_side_effect_score": 4.25,
+    "most_common_condition": "fatigue"
+  },
+  {
+    "drug_key": "prozac",
+    "review_count": 51,
+    "avg_effectiveness_score": 3.76,
+    "avg_side_effect_score": 3.49,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "quibron-t",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "qvar",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "ranitidine",
+    "review_count": 5,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "heartburn"
+  },
+  {
+    "drug_key": "rebif",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "multiple sclerosis"
+  },
+  {
+    "drug_key": "reclipsen",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "skin breakouts/birth control"
+  },
+  {
+    "drug_key": "reglan",
+    "review_count": 4,
+    "avg_effectiveness_score": 2.25,
+    "avg_side_effect_score": 3.67,
+    "most_common_condition": "delayed gastric emptying-nausea"
+  },
+  {
+    "drug_key": "relafen",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "oral infection and swelling"
+  },
+  {
+    "drug_key": "relpax",
+    "review_count": 6,
+    "avg_effectiveness_score": 4.83,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "migraine headaches"
+  },
+  {
+    "drug_key": "remeron",
+    "review_count": 9,
+    "avg_effectiveness_score": 3.11,
+    "avg_side_effect_score": 3.12,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "remicade",
+    "review_count": 12,
+    "avg_effectiveness_score": 3.67,
+    "avg_side_effect_score": 2.4,
+    "most_common_condition": "crohn's disease"
+  },
+  {
+    "drug_key": "renova",
+    "review_count": 34,
+    "avg_effectiveness_score": 3.09,
+    "avg_side_effect_score": 3.35,
+    "most_common_condition": "wrinkles"
+  },
+  {
+    "drug_key": "requip",
+    "review_count": 10,
+    "avg_effectiveness_score": 3.9,
+    "avg_side_effect_score": 4.2,
+    "most_common_condition": "restless leg syndrome"
+  },
+  {
+    "drug_key": "restasis",
+    "review_count": 8,
+    "avg_effectiveness_score": 3.88,
+    "avg_side_effect_score": 4.12,
+    "most_common_condition": "dry eye"
+  },
+  {
+    "drug_key": "restoril",
+    "review_count": 5,
+    "avg_effectiveness_score": 3.8,
+    "avg_side_effect_score": 4.2,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "retin-a",
+    "review_count": 55,
+    "avg_effectiveness_score": 3.53,
+    "avg_side_effect_score": 3.56,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "retin-a-micro",
+    "review_count": 30,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.48,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "rhinocort",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "ribavirin",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "hepatitis c"
+  },
+  {
+    "drug_key": "rifadin",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "mrsa abcess"
+  },
+  {
+    "drug_key": "risperdal",
+    "review_count": 8,
+    "avg_effectiveness_score": 2.5,
+    "avg_side_effect_score": 1.86,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "risperdal-consta",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "bipolar"
+  },
+  {
+    "drug_key": "ritalin",
+    "review_count": 11,
+    "avg_effectiveness_score": 4.45,
+    "avg_side_effect_score": 3.55,
+    "most_common_condition": "add"
+  },
+  {
+    "drug_key": "ritalin-la",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "adhd"
+  },
+  {
+    "drug_key": "saizen",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "adrenal burnout, chronic fatigue & premature agin"
+  },
+  {
+    "drug_key": "sanctura-xr",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "overactive bladder"
+  },
+  {
+    "drug_key": "sarafem",
+    "review_count": 13,
+    "avg_effectiveness_score": 3.85,
+    "avg_side_effect_score": 3.85,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "seasonale",
+    "review_count": 7,
+    "avg_effectiveness_score": 4.86,
+    "avg_side_effect_score": 4.29,
+    "most_common_condition": "birth control"
+  },
+  {
+    "drug_key": "seasonique",
+    "review_count": 26,
+    "avg_effectiveness_score": 4.12,
+    "avg_side_effect_score": 2.55,
+    "most_common_condition": "birth control"
+  },
+  {
+    "drug_key": "selegiline",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.25,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "attention deficit problems, concentration difficul"
+  },
+  {
+    "drug_key": "septra",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.33,
+    "most_common_condition": "mrsa skin infection"
+  },
+  {
+    "drug_key": "seroquel",
+    "review_count": 32,
+    "avg_effectiveness_score": 3.56,
+    "avg_side_effect_score": 2.72,
+    "most_common_condition": "bipolar disorder"
+  },
+  {
+    "drug_key": "seroquel-xr",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "bipolar 2"
+  },
+  {
+    "drug_key": "serzone",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 2.67,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "singulair",
+    "review_count": 21,
+    "avg_effectiveness_score": 3.62,
+    "avg_side_effect_score": 3.53,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "skelaxin",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.33,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "muscle spasm"
+  },
+  {
+    "drug_key": "solodyn",
+    "review_count": 6,
+    "avg_effectiveness_score": 2.33,
+    "avg_side_effect_score": 2.25,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "soltamox",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "atypical hyperplasia in breast and hypothyrodism"
+  },
+  {
+    "drug_key": "soma",
+    "review_count": 4,
+    "avg_effectiveness_score": 2.25,
+    "avg_side_effect_score": 2.75,
+    "most_common_condition": "back injury"
+  },
+  {
+    "drug_key": "sonata",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "sotret",
+    "review_count": 10,
+    "avg_effectiveness_score": 4.7,
+    "avg_side_effect_score": 2.9,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "spiriva",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "spironolactone",
+    "review_count": 20,
+    "avg_effectiveness_score": 3.7,
+    "avg_side_effect_score": 3.63,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "strattera",
+    "review_count": 18,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 3.29,
+    "most_common_condition": "adhd"
+  },
+  {
+    "drug_key": "suboxone",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "opiate/heroin addiction"
+  },
+  {
+    "drug_key": "sular",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "sulfasalazine",
+    "review_count": 4,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "crohn's disease"
+  },
+  {
+    "drug_key": "sulindac",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "baker's cysts behind both knees"
+  },
+  {
+    "drug_key": "sumatriptan",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.75,
+    "avg_side_effect_score": 4.25,
+    "most_common_condition": "maigrains"
+  },
+  {
+    "drug_key": "sustiva",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "hiv"
+  },
+  {
+    "drug_key": "symbicort",
+    "review_count": 5,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.25,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "symbyax",
+    "review_count": 3,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "synthroid",
+    "review_count": 53,
+    "avg_effectiveness_score": 3.83,
+    "avg_side_effect_score": 4.49,
+    "most_common_condition": "hypothyroidism"
+  },
+  {
+    "drug_key": "taclonex",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "psoriasis"
+  },
+  {
+    "drug_key": "tambocor",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "tachycardia"
+  },
+  {
+    "drug_key": "tamiflu",
+    "review_count": 10,
+    "avg_effectiveness_score": 3.1,
+    "avg_side_effect_score": 3.89,
+    "most_common_condition": "swine flu"
+  },
+  {
+    "drug_key": "tapazole",
+    "review_count": 2,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hyperthyroidism"
+  },
+  {
+    "drug_key": "tarka",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "hypertension"
+  },
+  {
+    "drug_key": "taxotere",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": NaN,
+    "most_common_condition": "cancer"
+  },
+  {
+    "drug_key": "tazorac",
+    "review_count": 25,
+    "avg_effectiveness_score": 3.4,
+    "avg_side_effect_score": 3.36,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "tegretol",
+    "review_count": 3,
+    "avg_effectiveness_score": 2.33,
+    "avg_side_effect_score": 2.0,
+    "most_common_condition": "epilepsy"
+  },
+  {
+    "drug_key": "tekturna",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "hypertension"
+  },
+  {
+    "drug_key": "tekturna-hct",
+    "review_count": 1,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": NaN,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "temovate",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "dyshidrosis"
+  },
+  {
+    "drug_key": "tenormin",
+    "review_count": 6,
+    "avg_effectiveness_score": 4.17,
+    "avg_side_effect_score": 4.5,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "tequin",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "uti"
+  },
+  {
+    "drug_key": "tetracycline",
+    "review_count": 12,
+    "avg_effectiveness_score": 3.17,
+    "avg_side_effect_score": 3.17,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "tirosint",
+    "review_count": 13,
+    "avg_effectiveness_score": 3.54,
+    "avg_side_effect_score": 4.36,
+    "most_common_condition": "hypothyroidism"
+  },
+  {
+    "drug_key": "tobramycin",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "pink eye"
+  },
+  {
+    "drug_key": "tofranil-pm",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "panic attacks"
+  },
+  {
+    "drug_key": "topamax",
+    "review_count": 35,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 2.94,
+    "most_common_condition": "migraines"
+  },
+  {
+    "drug_key": "topicort",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "itchy and irritated skin"
+  },
+  {
+    "drug_key": "toprol-xl",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "toradol",
+    "review_count": 3,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 2.0,
+    "most_common_condition": "for  back pain"
+  },
+  {
+    "drug_key": "tramadol",
+    "review_count": 27,
+    "avg_effectiveness_score": 3.52,
+    "avg_side_effect_score": 3.26,
+    "most_common_condition": "2 compressed discs in neck"
+  },
+  {
+    "drug_key": "trazodone",
+    "review_count": 16,
+    "avg_effectiveness_score": 4.38,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "trental",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "behcet's disease"
+  },
+  {
+    "drug_key": "tri-luma",
+    "review_count": 14,
+    "avg_effectiveness_score": 2.43,
+    "avg_side_effect_score": 3.09,
+    "most_common_condition": "melasma"
+  },
+  {
+    "drug_key": "triamcinolone",
+    "review_count": 2,
+    "avg_effectiveness_score": 2.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "eczema"
+  },
+  {
+    "drug_key": "triaz",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.75,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "triazolam",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "sedation dentistry for dental implants"
+  },
+  {
+    "drug_key": "trileptal",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 2.5,
+    "most_common_condition": "epilepsy"
+  },
+  {
+    "drug_key": "trilipix",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "high ldl"
+  },
+  {
+    "drug_key": "trimethobenzamide",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "vertigo"
+  },
+  {
+    "drug_key": "trimethoprim",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.5,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "bladder infections"
+  },
+  {
+    "drug_key": "triphasil",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "contraception"
+  },
+  {
+    "drug_key": "tussionex",
+    "review_count": 2,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "mycoplasma bronchitis"
+  },
+  {
+    "drug_key": "tylenol",
+    "review_count": 8,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.62,
+    "most_common_condition": "headache"
+  },
+  {
+    "drug_key": "tylenol-with-codeine",
+    "review_count": 1,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "pain after minor surgery"
+  },
+  {
+    "drug_key": "ultracet",
+    "review_count": 5,
+    "avg_effectiveness_score": 2.6,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "chronic pain from disk hernia in cervical spine"
+  },
+  {
+    "drug_key": "ultram",
+    "review_count": 17,
+    "avg_effectiveness_score": 3.59,
+    "avg_side_effect_score": 3.44,
+    "most_common_condition": "fibromyalgia"
+  },
+  {
+    "drug_key": "ultram-er",
+    "review_count": 2,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "cervical disk degeneration and lower back pain"
+  },
+  {
+    "drug_key": "vagifem",
+    "review_count": 6,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.17,
+    "most_common_condition": "chronic urinary and yeast infections due to drynes"
+  },
+  {
+    "drug_key": "valium",
+    "review_count": 12,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 4.45,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "valtrex",
+    "review_count": 28,
+    "avg_effectiveness_score": 4.25,
+    "avg_side_effect_score": 4.37,
+    "most_common_condition": "cold sores"
+  },
+  {
+    "drug_key": "vaniqa",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "facial"
+  },
+  {
+    "drug_key": "vasotec",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "ventolin-hfa",
+    "review_count": 2,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "asthma"
+  },
+  {
+    "drug_key": "vesicare",
+    "review_count": 3,
+    "avg_effectiveness_score": 4.33,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "frequent urination"
+  },
+  {
+    "drug_key": "viagra",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.67,
+    "avg_side_effect_score": 3.33,
+    "most_common_condition": "ed"
+  },
+  {
+    "drug_key": "vicodin",
+    "review_count": 23,
+    "avg_effectiveness_score": 3.26,
+    "avg_side_effect_score": 3.18,
+    "most_common_condition": "pain"
+  },
+  {
+    "drug_key": "vicoprofen",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "oral infection"
+  },
+  {
+    "drug_key": "vigamox",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "conjunctivitus"
+  },
+  {
+    "drug_key": "vioxx",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "possible arthritis"
+  },
+  {
+    "drug_key": "vistaril",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "vivelle",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 1.0,
+    "most_common_condition": "total hist"
+  },
+  {
+    "drug_key": "vivelle-dot",
+    "review_count": 11,
+    "avg_effectiveness_score": 4.91,
+    "avg_side_effect_score": 4.55,
+    "most_common_condition": "hysterectomy"
+  },
+  {
+    "drug_key": "voltaren",
+    "review_count": 13,
+    "avg_effectiveness_score": 3.77,
+    "avg_side_effect_score": 3.85,
+    "most_common_condition": "arthritis"
+  },
+  {
+    "drug_key": "vytorin",
+    "review_count": 5,
+    "avg_effectiveness_score": 2.4,
+    "avg_side_effect_score": 4.67,
+    "most_common_condition": "high cholesterol"
+  },
+  {
+    "drug_key": "vyvanse",
+    "review_count": 27,
+    "avg_effectiveness_score": 4.59,
+    "avg_side_effect_score": 3.26,
+    "most_common_condition": "add"
+  },
+  {
+    "drug_key": "warfarin",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "heart condition"
+  },
+  {
+    "drug_key": "wellbutrin",
+    "review_count": 42,
+    "avg_effectiveness_score": 3.64,
+    "avg_side_effect_score": 3.92,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "wellbutrin-sr",
+    "review_count": 11,
+    "avg_effectiveness_score": 3.91,
+    "avg_side_effect_score": 3.91,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "wellbutrin-xl",
+    "review_count": 35,
+    "avg_effectiveness_score": 3.8,
+    "avg_side_effect_score": 3.76,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "xalatan",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "glaucoma"
+  },
+  {
+    "drug_key": "xanax",
+    "review_count": 31,
+    "avg_effectiveness_score": 4.55,
+    "avg_side_effect_score": 3.9,
+    "most_common_condition": "anxiety"
+  },
+  {
+    "drug_key": "xanax-xr",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "anxiety rapid onset"
+  },
+  {
+    "drug_key": "xenical",
+    "review_count": 11,
+    "avg_effectiveness_score": 3.36,
+    "avg_side_effect_score": 3.7,
+    "most_common_condition": "obesity"
+  },
+  {
+    "drug_key": "xyrem",
+    "review_count": 9,
+    "avg_effectiveness_score": 4.89,
+    "avg_side_effect_score": 3.5,
+    "most_common_condition": "insomnia"
+  },
+  {
+    "drug_key": "xyzal",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.0,
+    "avg_side_effect_score": 3.33,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "yasmin",
+    "review_count": 25,
+    "avg_effectiveness_score": 4.6,
+    "avg_side_effect_score": 3.45,
+    "most_common_condition": "birth control"
+  },
+  {
+    "drug_key": "zantac",
+    "review_count": 8,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 4.25,
+    "most_common_condition": "acid reflux"
+  },
+  {
+    "drug_key": "zebeta",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "hypertension"
+  },
+  {
+    "drug_key": "zegerid",
+    "review_count": 11,
+    "avg_effectiveness_score": 3.91,
+    "avg_side_effect_score": 4.33,
+    "most_common_condition": "gerd"
+  },
+  {
+    "drug_key": "zestoretic",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "zetia",
+    "review_count": 1,
+    "avg_effectiveness_score": 1.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "high cholestrol"
+  },
+  {
+    "drug_key": "ziac",
+    "review_count": 1,
+    "avg_effectiveness_score": 5.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "high blood pressure"
+  },
+  {
+    "drug_key": "ziana",
+    "review_count": 3,
+    "avg_effectiveness_score": 3.33,
+    "avg_side_effect_score": 4.0,
+    "most_common_condition": "acne"
+  },
+  {
+    "drug_key": "zithromax",
+    "review_count": 15,
+    "avg_effectiveness_score": 3.73,
+    "avg_side_effect_score": 4.14,
+    "most_common_condition": "bronchitis"
+  },
+  {
+    "drug_key": "zmax",
+    "review_count": 8,
+    "avg_effectiveness_score": 3.62,
+    "avg_side_effect_score": 3.75,
+    "most_common_condition": "bronchitis"
+  },
+  {
+    "drug_key": "zocor",
+    "review_count": 17,
+    "avg_effectiveness_score": 3.29,
+    "avg_side_effect_score": 4.08,
+    "most_common_condition": "high cholesterol"
+  },
+  {
+    "drug_key": "zofran",
+    "review_count": 9,
+    "avg_effectiveness_score": 3.44,
+    "avg_side_effect_score": 3.86,
+    "most_common_condition": "nausea"
+  },
+  {
+    "drug_key": "zoloft",
+    "review_count": 52,
+    "avg_effectiveness_score": 3.75,
+    "avg_side_effect_score": 3.85,
+    "most_common_condition": "depression"
+  },
+  {
+    "drug_key": "zomig",
+    "review_count": 20,
+    "avg_effectiveness_score": 4.45,
+    "avg_side_effect_score": 3.89,
+    "most_common_condition": "migraine"
+  },
+  {
+    "drug_key": "zovirax",
+    "review_count": 12,
+    "avg_effectiveness_score": 4.33,
+    "avg_side_effect_score": 4.58,
+    "most_common_condition": "cold sores"
+  },
+  {
+    "drug_key": "zovirax-topical",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 5.0,
+    "most_common_condition": "shingles"
+  },
+  {
+    "drug_key": "zyban",
+    "review_count": 16,
+    "avg_effectiveness_score": 4.12,
+    "avg_side_effect_score": 2.36,
+    "most_common_condition": "smoking"
+  },
+  {
+    "drug_key": "zyprexa",
+    "review_count": 7,
+    "avg_effectiveness_score": 3.57,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "agitation management r/t lewy body syndrome  demen"
+  },
+  {
+    "drug_key": "zyrtec",
+    "review_count": 32,
+    "avg_effectiveness_score": 3.81,
+    "avg_side_effect_score": 3.97,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "zyrtec-d",
+    "review_count": 4,
+    "avg_effectiveness_score": 4.5,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "allergies"
+  },
+  {
+    "drug_key": "zyvox",
+    "review_count": 1,
+    "avg_effectiveness_score": 4.0,
+    "avg_side_effect_score": 3.0,
+    "most_common_condition": "mrsa"
+  }
+]

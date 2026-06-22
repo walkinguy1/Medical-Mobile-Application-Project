@@ -64,7 +64,7 @@ class AmbulanceCard extends StatelessWidget {
                         Text(
                           ambulance.address,
                           style: theme.textTheme.bodyMedium?.copyWith(
-                            color: const Color(0xFF64748B),
+                            color: Theme.of(context).colorScheme.onSurfaceVariant,
                           ),
                         ),
                       ],
@@ -92,7 +92,7 @@ class AmbulanceCard extends StatelessWidget {
                 Text(
                   ambulance.notes,
                   style: theme.textTheme.bodySmall?.copyWith(
-                    color: const Color(0xFF94A3B8),
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                     fontStyle: FontStyle.italic,
                   ),
                   maxLines: 2,

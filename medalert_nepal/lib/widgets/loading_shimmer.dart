@@ -9,8 +9,8 @@ class LoadingShimmer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Shimmer.fromColors(
-      baseColor: const Color(0xFFE2E8F0),
-      highlightColor: const Color(0xFFF8FAFC),
+      baseColor: Theme.of(context).colorScheme.outlineVariant,
+      highlightColor: Theme.of(context).colorScheme.surfaceContainerLowest,
       child: Column(
         children: List.generate(
           itemCount,
@@ -18,7 +18,7 @@ class LoadingShimmer extends StatelessWidget {
             height: 88,
             margin: const EdgeInsets.only(bottom: 12),
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: Theme.of(context).colorScheme.surface,
               borderRadius: BorderRadius.circular(16),
             ),
           ),

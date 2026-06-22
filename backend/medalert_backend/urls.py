@@ -33,6 +33,7 @@ api_v1 = [
     path('auth/register/', RegisterView.as_view(), name='register'),
     path('auth/profile/me/', MedicalProfileViewSet.as_view({'get': 'me', 'put': 'me', 'patch': 'me'}), name='profile_me'),
     path('', include(router.urls)),
+    path('ml/', include('ml_insights.urls')),
 ]
 
 urlpatterns = [

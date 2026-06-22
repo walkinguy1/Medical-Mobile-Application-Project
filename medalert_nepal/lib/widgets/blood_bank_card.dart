@@ -75,7 +75,7 @@ class BloodBankCard extends StatelessWidget {
                         Text(
                           bloodBank.address,
                           style: theme.textTheme.bodyMedium?.copyWith(
-                            color: const Color(0xFF64748B),
+                            color: Theme.of(context).colorScheme.onSurfaceVariant,
                           ),
                         ),
                       ],
@@ -92,7 +92,7 @@ class BloodBankCard extends StatelessWidget {
               Text(
                 'STOCK LEVEL BY BLOOD GROUP',
                 style: theme.textTheme.labelSmall?.copyWith(
-                  color: const Color(0xFF94A3B8),
+                  color: Theme.of(context).colorScheme.onSurfaceVariant,
                   fontWeight: FontWeight.w700,
                   letterSpacing: 0.8,
                 ),
@@ -102,7 +102,7 @@ class BloodBankCard extends StatelessWidget {
                 Text(
                   'No stock information reported.',
                   style: theme.textTheme.bodySmall?.copyWith(
-                    color: const Color(0xFF64748B),
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                     fontStyle: FontStyle.italic,
                   ),
                 )

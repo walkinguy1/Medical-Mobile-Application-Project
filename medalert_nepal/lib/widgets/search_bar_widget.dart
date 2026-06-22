@@ -20,11 +20,11 @@ class SearchBarWidget extends StatelessWidget {
       controller: controller,
       onChanged: onChanged,
       decoration: InputDecoration(
-        prefixIcon: const Icon(Icons.search, color: Color(0xFF64748B)),
+        prefixIcon: Icon(Icons.search, color: Theme.of(context).colorScheme.onSurfaceVariant),
         hintText: hintText,
         suffixIcon: controller.text.isNotEmpty
             ? IconButton(
-                icon: const Icon(Icons.close, size: 20, color: Color(0xFF64748B)),
+                icon: Icon(Icons.close, size: 20, color: Theme.of(context).colorScheme.onSurfaceVariant),
                 onPressed: () {
                   controller.clear();
                   if (onClear != null) onClear!();

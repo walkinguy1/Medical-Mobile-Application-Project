@@ -20,7 +20,7 @@ class HomeScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Container(
-      color: const Color(0xFFF8FAFC),
+      color: Theme.of(context).colorScheme.surfaceContainerLowest,
       child: SafeArea(
         child: ListView(
           padding: const EdgeInsets.fromLTRB(20, 20, 20, 28),
@@ -35,7 +35,7 @@ class HomeScreen extends ConsumerWidget {
             Text(
               'Medicine availability, emergency contacts, blood banks, ambulances, and medical ID in one app.',
               style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                    color: const Color(0xFF64748B),
+                    color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
             ),
             const SizedBox(height: 20),
@@ -143,9 +143,9 @@ class _ActionTile extends StatelessWidget {
         width: 155,
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: Theme.of(context).colorScheme.surface,
           borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: const Color(0xFFE2E8F0)),
+          border: Border.all(color: Theme.of(context).colorScheme.outlineVariant),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

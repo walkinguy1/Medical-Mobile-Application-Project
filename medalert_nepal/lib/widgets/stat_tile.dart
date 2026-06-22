@@ -23,12 +23,12 @@ class StatTile extends StatelessWidget {
       width: 155,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: theme.cardTheme.color ?? Colors.white,
+        color: theme.cardTheme.color ?? Theme.of(context).colorScheme.surface,
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFFE2E8F0)),
+        border: Border.all(color: Theme.of(context).colorScheme.outlineVariant),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withValues(alpha: 0.02),
+            color: Theme.of(context).colorScheme.onSurface.withValues(alpha: 0.02),
             blurRadius: 8,
             offset: const Offset(0, 4),
           )
@@ -62,7 +62,7 @@ class StatTile extends StatelessWidget {
           Text(
             label,
             style: theme.textTheme.bodySmall?.copyWith(
-              color: const Color(0xFF64748B),
+              color: Theme.of(context).colorScheme.onSurfaceVariant,
               fontWeight: FontWeight.w500,
             ),
           ),

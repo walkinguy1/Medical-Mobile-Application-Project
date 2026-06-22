@@ -9,6 +9,7 @@ import 'home_screen.dart';
 import 'login_screen.dart';
 import 'medicine_screen.dart';
 import 'profile_screen.dart';
+import 'symptom_checker_screen.dart';
 
 final selectedTabProvider = StateProvider<int>((ref) => 0);
 
@@ -46,6 +47,7 @@ class _MainAppShell extends ConsumerWidget {
     MedicineScreen(),
     BloodBankScreen(),
     AmbulanceScreen(),
+    SymptomCheckerScreen(),
     ProfileScreen(),
   ];
 
@@ -81,6 +83,11 @@ class _MainAppShell extends ConsumerWidget {
             icon: Icon(Icons.local_shipping_outlined),
             selectedIcon: Icon(Icons.local_shipping),
             label: 'Ambulance',
+          ),
+          NavigationDestination(
+            icon: Icon(Icons.medical_information_outlined),
+            selectedIcon: Icon(Icons.medical_information),
+            label: 'Symptoms',
           ),
           NavigationDestination(
             icon: Icon(Icons.badge_outlined),

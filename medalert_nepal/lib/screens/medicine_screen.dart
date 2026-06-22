@@ -125,7 +125,7 @@ class _EmptyMessage extends StatelessWidget {
       child: Center(
         child: Text(
           message,
-          style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: const Color(0xFF64748B)),
+          style: Theme.of(context).textTheme.bodyMedium?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
         ),
       ),
     );

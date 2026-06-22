@@ -11,6 +11,7 @@ import '../widgets/emergency_contact_tile.dart';
 import '../widgets/medical_id_card.dart';
 import '../widgets/profile_field.dart';
 import '../widgets/section_header.dart';
+import '../providers/theme_provider.dart';
 
 class ProfileScreen extends ConsumerStatefulWidget {
   const ProfileScreen({super.key});
@@ -206,7 +207,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
             Container(
               padding: const EdgeInsets.all(16),
               decoration: BoxDecoration(
-                color: Colors.white,
+                color: Theme.of(context).colorScheme.surface,
                 borderRadius: BorderRadius.circular(12),
               ),
               child: QrImageView(
@@ -324,10 +325,57 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
                   onTap: () {},
                 ),
               ),
+              const SizedBox(height: 12),
+              Card(
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 8.0),
+                  child: ListTile(
+                    leading: const Icon(Icons.brightness_6_outlined),
+                    title: const Text('Appearance'),
+                    subtitle: const Padding(
+                      padding: EdgeInsets.only(top: 8.0),
+                      child: _ThemeToggle(),
+                    ),
+                  ),
+                ),
+              ),
             ],
           );
         },
       ),
+    );
+  }
+}
+
+class _ThemeToggle extends ConsumerWidget {
+  const _ThemeToggle();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final themeMode = ref.watch(themeModeProvider);
+    
+    return SegmentedButton<ThemeMode>(
+      segments: const [
+        ButtonSegment(
+          value: ThemeMode.system,
+          icon: Icon(Icons.brightness_auto),
+          label: Text('System'),
+        ),
+        ButtonSegment(
+          value: ThemeMode.light,
+          icon: Icon(Icons.light_mode),
+          label: Text('Light'),
+        ),
+        ButtonSegment(
+          value: ThemeMode.dark,
+          icon: Icon(Icons.dark_mode),
+          label: Text('Dark'),
+        ),
+      ],
+      selected: {themeMode},
+      onSelectionChanged: (Set<ThemeMode> newSelection) {
+        ref.read(themeModeProvider.notifier).setTheme(newSelection.first);
+      },
     );
   }
 }

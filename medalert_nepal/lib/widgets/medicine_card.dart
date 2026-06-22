@@ -73,7 +73,7 @@ class MedicineCard extends StatelessWidget {
                         Text(
                           medicine.genericName,
                           style: theme.textTheme.bodyMedium?.copyWith(
-                            color: const Color(0xFF64748B),
+                            color: Theme.of(context).colorScheme.onSurfaceVariant,
                             fontStyle: FontStyle.italic,
                           ),
                         ),
@@ -95,12 +95,12 @@ class MedicineCard extends StatelessWidget {
               const SizedBox(height: 12),
               Row(
                 children: [
-                  const Icon(Icons.layers_outlined, size: 16, color: Color(0xFF94A3B8)),
+                  Icon(Icons.layers_outlined, size: 16, color: Theme.of(context).colorScheme.onSurfaceVariant),
                   const SizedBox(width: 4),
                   Text(
                     '${medicine.dosageForm} - ${medicine.strength}',
                     style: theme.textTheme.bodySmall?.copyWith(
-                      color: const Color(0xFF64748B),
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
                       fontWeight: FontWeight.w500,
                     ),
                   ),

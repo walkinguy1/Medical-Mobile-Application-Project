@@ -41,7 +41,7 @@ class SectionHeader extends StatelessWidget {
               const SizedBox(height: 2),
               Text(
                 subtitle,
-                style: theme.textTheme.bodyMedium?.copyWith(color: const Color(0xFF64748B)),
+                style: theme.textTheme.bodyMedium?.copyWith(color: Theme.of(context).colorScheme.onSurfaceVariant),
               ),
             ],
           ),

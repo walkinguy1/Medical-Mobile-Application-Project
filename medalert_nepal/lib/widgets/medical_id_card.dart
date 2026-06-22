@@ -47,16 +47,16 @@ class MedicalIdCard extends StatelessWidget {
                     Text(
                       'DIGITAL MEDICAL ID',
                       style: theme.textTheme.labelSmall?.copyWith(
-                        color: Colors.white70,
+                        color: theme.colorScheme.surface.withValues(alpha: 0.70),
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1.5,
                       ),
                     ),
                     const SizedBox(height: 4),
-                    const Text(
+                    Text(
                       'Emergency Responders',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: theme.colorScheme.surface,
                         fontSize: 18,
                         fontWeight: FontWeight.w800,
                       ),
@@ -64,9 +64,9 @@ class MedicalIdCard extends StatelessWidget {
                   ],
                 ),
               ),
-              const Icon(
+              Icon(
                 Icons.badge_outlined,
-                color: Colors.white70,
+                color: theme.colorScheme.surface.withValues(alpha: 0.70),
                 size: 28,
               ),
             ],
@@ -104,12 +104,12 @@ class MedicalIdCard extends StatelessWidget {
           _buildDetailRow('Medications', profile.currentMedications, theme),
           if (profile.emergencyContactName.isNotEmpty) ...[
             const SizedBox(height: 14),
-            const Divider(color: Colors.white24, height: 1),
+            Divider(color: theme.colorScheme.surface.withValues(alpha: 0.24), height: 1),
             const SizedBox(height: 14),
             Text(
               'EMERGENCY CONTACT',
               style: theme.textTheme.labelSmall?.copyWith(
-                color: Colors.white70,
+                color: theme.colorScheme.surface.withValues(alpha: 0.70),
                 fontWeight: FontWeight.w800,
                 letterSpacing: 1,
               ),
@@ -123,8 +123,8 @@ class MedicalIdCard extends StatelessWidget {
                   children: [
                     Text(
                       profile.emergencyContactName,
-                      style: const TextStyle(
-                        color: Colors.white,
+                      style: TextStyle(
+                        color: theme.colorScheme.surface,
                         fontWeight: FontWeight.w700,
                         fontSize: 15,
                       ),
@@ -132,8 +132,8 @@ class MedicalIdCard extends StatelessWidget {
                     const SizedBox(height: 2),
                     Text(
                       '${profile.emergencyContactRelation} - ${profile.emergencyContactPhone}',
-                      style: const TextStyle(
-                        color: Colors.white70,
+                      style: TextStyle(
+                        color: theme.colorScheme.surface.withValues(alpha: 0.70),
                         fontSize: 13,
                       ),
                     ),
@@ -151,8 +151,8 @@ class MedicalIdCard extends StatelessWidget {
                 icon: const Icon(Icons.edit_outlined, size: 18),
                 label: const Text('Update Medical ID'),
                 style: OutlinedButton.styleFrom(
-                  foregroundColor: Colors.white,
-                  side: const BorderSide(color: Colors.white38),
+                  foregroundColor: theme.colorScheme.surface,
+                  side: BorderSide(color: theme.colorScheme.surface.withValues(alpha: 0.38)),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(14),
                   ),
@@ -173,7 +173,7 @@ class MedicalIdCard extends StatelessWidget {
         Text(
           label.toUpperCase(),
           style: theme.textTheme.labelSmall?.copyWith(
-            color: Colors.white60,
+            color: theme.colorScheme.surface.withValues(alpha: 0.60),
             fontWeight: FontWeight.w800,
             letterSpacing: 0.8,
           ),
@@ -181,8 +181,8 @@ class MedicalIdCard extends StatelessWidget {
         const SizedBox(height: 2),
         Text(
           value.isNotEmpty ? value : 'None reported',
-          style: const TextStyle(
-            color: Colors.white,
+          style: TextStyle(
+            color: theme.colorScheme.surface,
             fontSize: 14,
             fontWeight: FontWeight.w500,
           ),

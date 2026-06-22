@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django_filters',
     # Local
     'core',
+    'ml_insights',
 ]
 
 MIDDLEWARE = [
@@ -70,6 +71,14 @@ DATABASES = {
         'PORT': os.getenv('POSTGRES_PORT', '5432'),
     }
 }
+
+# Use SQLite for testing
+import sys
+if 'test' in sys.argv:
+    DATABASES['default'] = {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': ':memory:',
+    }
 
 AUTH_PASSWORD_VALIDATORS = [
     {'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator'},

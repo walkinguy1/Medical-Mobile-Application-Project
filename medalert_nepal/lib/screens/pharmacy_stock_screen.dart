@@ -3,6 +3,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/medicine.dart';
 import '../providers/medicine_provider.dart';
 import '../services/api_client.dart';
+import '../widgets/community_insight_card.dart';
+import '../widgets/interaction_warning_banner.dart';
 
 class PharmacyStockScreen extends ConsumerWidget {
   final Medicine medicine;
@@ -20,66 +22,121 @@ class PharmacyStockScreen extends ConsumerWidget {
       appBar: AppBar(
         title: Text('${medicine.name} Stock'),
       ),
-      body: stockAsync.when(
-        loading: () => const Center(child: CircularProgressIndicator()),
-        error: (error, stack) {
-          final errorMessage = error is ApiException ? error.message : 'Error loading stock';
-          return Center(child: Text(errorMessage));
-        },
-        data: (stocks) {
-          if (stocks.isEmpty) {
-            return Center(
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            // Medicine info section
+            Padding(
+              padding: const EdgeInsets.all(16.0),
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Icon(Icons.store_outlined, size: 64, color: Colors.grey),
-                  const SizedBox(height: 16),
                   Text(
-                    'No pharmacies stocking this medicine',
-                    style: Theme.of(context).textTheme.titleMedium,
+                    medicine.name,
+                    style: Theme.of(context).textTheme.headlineSmall?.copyWith(
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    medicine.genericName,
+                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                      color: Theme.of(context).colorScheme.onSurfaceVariant,
+                    ),
+                  ),
+                  if (medicine.brandName.isNotEmpty) ...[
+                    const SizedBox(height: 4),
+                    Text(
+                      'Brand: ${medicine.brandName}',
+                      style: Theme.of(context).textTheme.bodySmall,
+                    ),
+                  ],
+                  const SizedBox(height: 8),
+                  Text(
+                    '${medicine.dosageForm} - ${medicine.strength}',
+                    style: Theme.of(context).textTheme.bodySmall,
                   ),
                 ],
               ),
-            );
-          }
-
-          return ListView.builder(
-            padding: const EdgeInsets.all(16),
-            itemCount: stocks.length,
-            itemBuilder: (context, index) {
-              final stock = stocks[index];
-              return Card(
-                margin: const EdgeInsets.only(bottom: 12),
-                child: ListTile(
-                  leading: _buildAvailabilityIcon(stock.availability),
-                  title: Text(stock.pharmacyDetail?.name ?? 'Unknown Pharmacy'),
-                  subtitle: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(stock.pharmacyDetail?.address ?? ''),
-                      const SizedBox(height: 4),
-                      Row(
+            ),
+            // ML widgets
+            CommunityInsightCard(medicine: medicine),
+            InteractionWarningBanner(targetMedicineName: medicine.genericName),
+            // Stock list
+            stockAsync.when(
+              loading: () => const Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Center(child: CircularProgressIndicator()),
+              ),
+              error: (error, stack) {
+                final errorMessage = error is ApiException ? error.message : 'Error loading stock';
+                return Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Center(child: Text(errorMessage)),
+                );
+              },
+              data: (stocks) {
+                if (stocks.isEmpty) {
+                  return Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          if (stock.priceNpr != null)
-                            Text('Rs. ${stock.priceNpr?.toStringAsFixed(2)}', 
-                              style: const TextStyle(fontWeight: FontWeight.bold)),
-                          if (stock.quantityOnHand != null) ...[
-                            const SizedBox(width: 8),
-                            Text('${stock.quantityOnHand} in stock'),
-                          ],
+                          Icon(Icons.store_outlined, size: 64, color: Colors.grey),
+                          const SizedBox(height: 16),
+                          Text(
+                            'No pharmacies stocking this medicine',
+                            style: Theme.of(context).textTheme.titleMedium,
+                          ),
                         ],
                       ),
-                    ],
-                  ),
-                  trailing: _buildAvailabilityChip(stock.availability),
-                  onTap: () {
-                    // TODO: Navigate to pharmacy details or call
+                    ),
+                  );
+                }
+
+                return ListView.builder(
+                  padding: const EdgeInsets.all(16),
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount: stocks.length,
+                  itemBuilder: (context, index) {
+                    final stock = stocks[index];
+                    return Card(
+                      margin: const EdgeInsets.only(bottom: 12),
+                      child: ListTile(
+                        leading: _buildAvailabilityIcon(stock.availability),
+                        title: Text(stock.pharmacyDetail?.name ?? 'Unknown Pharmacy'),
+                        subtitle: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(stock.pharmacyDetail?.address ?? ''),
+                            const SizedBox(height: 4),
+                            Row(
+                              children: [
+                                if (stock.priceNpr != null)
+                                  Text('Rs. ${stock.priceNpr?.toStringAsFixed(2)}', 
+                                    style: const TextStyle(fontWeight: FontWeight.bold)),
+                                if (stock.quantityOnHand != null) ...[
+                                  const SizedBox(width: 8),
+                                  Text('${stock.quantityOnHand} in stock'),
+                                ],
+                              ],
+                            ),
+                          ],
+                        ),
+                        trailing: _buildAvailabilityChip(stock.availability),
+                        onTap: () {
+                          // TODO: Navigate to pharmacy details or call
+                        },
+                      ),
+                    );
                   },
-                ),
-              );
-            },
-          );
-        },
+                );
+              },
+            ),
+          ],
+        ),
       ),
     );
   }

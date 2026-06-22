@@ -31,6 +31,21 @@ def calculate_distance(lat1, lon1, lat2, lon2):
 
 # ── User & Auth Serializers ───────────────────────────────────────────────────
 
+class DistanceSerializerMixin:
+    distance = serializers.SerializerMethodField()
+
+    def get_distance(self, obj):
+        request = self.context.get('request')
+        if not request:
+            return None
+        return calculate_distance(
+            request.query_params.get('lat'),
+            request.query_params.get('lon'),
+            obj.latitude,
+            obj.longitude,
+        )
+
+
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
@@ -127,8 +142,7 @@ class PharmacyMedicineStockSerializer(serializers.ModelSerializer):
 
 # ── Pharmacy Serializers ─────────────────────────────────────────────────────
 
-class PharmacySerializer(serializers.ModelSerializer):
-    distance = serializers.SerializerMethodField()
+class PharmacySerializer(DistanceSerializerMixin, serializers.ModelSerializer):
     stock = PharmacyMedicineStockSerializer(many=True, read_only=True)
 
     class Meta:
@@ -139,15 +153,6 @@ class PharmacySerializer(serializers.ModelSerializer):
             'is_active', 'verification_status', 'stock', 'created_at', 'updated_at'
         )
 
-    def get_distance(self, obj):
-        request = self.context.get('request')
-        if not request:
-            return None
-        lat = request.query_params.get('lat')
-        lon = request.query_params.get('lon')
-        return calculate_distance(lat, lon, obj.latitude, obj.longitude)
-
-
 # ── Blood Bank Serializers ───────────────────────────────────────────────────
 
 class BloodStockSerializer(serializers.ModelSerializer):
@@ -156,8 +161,7 @@ class BloodStockSerializer(serializers.ModelSerializer):
         fields = ('id', 'blood_group', 'stock_level', 'units_available', 'notes', 'updated_at')
 
 
-class BloodBankSerializer(serializers.ModelSerializer):
-    distance = serializers.SerializerMethodField()
+class BloodBankSerializer(DistanceSerializerMixin, serializers.ModelSerializer):
     blood_stocks = BloodStockSerializer(many=True, read_only=True)
 
     class Meta:
@@ -167,20 +171,9 @@ class BloodBankSerializer(serializers.ModelSerializer):
             'latitude', 'longitude', 'distance', 'is_active', 'is_24h', 'blood_stocks', 'created_at', 'updated_at'
         )
 
-    def get_distance(self, obj):
-        request = self.context.get('request')
-        if not request:
-            return None
-        lat = request.query_params.get('lat')
-        lon = request.query_params.get('lon')
-        return calculate_distance(lat, lon, obj.latitude, obj.longitude)
-
-
 # ── Ambulance Provider Serializer ────────────────────────────────────────────
 
-class AmbulanceProviderSerializer(serializers.ModelSerializer):
-    distance = serializers.SerializerMethodField()
-
+class AmbulanceProviderSerializer(DistanceSerializerMixin, serializers.ModelSerializer):
     class Meta:
         model = AmbulanceProvider
         fields = (
@@ -188,11 +181,3 @@ class AmbulanceProviderSerializer(serializers.ModelSerializer):
             'address', 'district', 'latitude', 'longitude', 'distance', 'is_active', 'is_24h',
             'has_icu', 'has_oxygen', 'notes', 'created_at', 'updated_at'
         )
-
-    def get_distance(self, obj):
-        request = self.context.get('request')
-        if not request:
-            return None
-        lat = request.query_params.get('lat')
-        lon = request.query_params.get('lon')
-        return calculate_distance(lat, lon, obj.latitude, obj.longitude)

@@ -4,8 +4,6 @@ import '../models/ambulance.dart';
 class AmbulanceService {
   final _client = ApiClient();
 
-
-
   Future<List<AmbulanceProvider>> getAmbulanceProviders({
     String? search,
     String? serviceType,
@@ -33,16 +31,7 @@ class AmbulanceService {
 
       final response = await _client.dio.get('/ambulances/', queryParameters: queryParams);
 
-      List dataList;
-      if (response.data is Map && response.data.containsKey('results')) {
-        dataList = response.data['results'] as List;
-      } else if (response.data is List) {
-        dataList = response.data as List;
-      } else {
-        dataList = [];
-      }
-
-      return dataList.map((json) => AmbulanceProvider.fromJson(json as Map<String, dynamic>)).toList();
+      return _client.parseList(response.data, AmbulanceProvider.fromJson);
     } on ApiException {
       rethrow;
     } catch (e) {

@@ -29,16 +29,7 @@ class MedicineService {
 
       final response = await _client.dio.get('/medicines/', queryParameters: queryParams);
 
-      List dataList;
-      if (response.data is Map && response.data.containsKey('results')) {
-        dataList = response.data['results'] as List;
-      } else if (response.data is List) {
-        dataList = response.data as List;
-      } else {
-        dataList = [];
-      }
-
-      return dataList.map((json) => Medicine.fromJson(json as Map<String, dynamic>)).toList();
+      return _client.parseList(response.data, Medicine.fromJson);
     } on ApiException {
       rethrow;
     } catch (e) {
@@ -49,15 +40,7 @@ class MedicineService {
   Future<List<MedicineCategory>> getCategories() async {
     try {
       final response = await _client.dio.get('/medicines/categories/');
-      List dataList;
-      if (response.data is Map && response.data.containsKey('results')) {
-        dataList = response.data['results'] as List;
-      } else if (response.data is List) {
-        dataList = response.data as List;
-      } else {
-        dataList = [];
-      }
-      return dataList.map((json) => MedicineCategory.fromJson(json as Map<String, dynamic>)).toList();
+      return _client.parseList(response.data, MedicineCategory.fromJson);
     } on ApiException {
       rethrow;
     } catch (e) {
@@ -71,16 +54,7 @@ class MedicineService {
         'medicine': medicineId,
       });
 
-      List dataList;
-      if (response.data is Map && response.data.containsKey('results')) {
-        dataList = response.data['results'] as List;
-      } else if (response.data is List) {
-        dataList = response.data as List;
-      } else {
-        dataList = [];
-      }
-
-      return dataList.map((json) => PharmacyMedicineStock.fromJson(json as Map<String, dynamic>)).toList();
+      return _client.parseList(response.data, PharmacyMedicineStock.fromJson);
     } on ApiException {
       rethrow;
     } catch (e) {

@@ -25,7 +25,6 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt.token_blacklist',
     'corsheaders',
     'django_filters',
-    'drf_spectacular',
     # Local
     'core',
 ]
@@ -118,7 +117,6 @@ REST_FRAMEWORK = {
         'anon': '60/minute',
         'user': '300/minute',
     },
-    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
 
 # ── JWT ───────────────────────────────────────────────────────────────────────

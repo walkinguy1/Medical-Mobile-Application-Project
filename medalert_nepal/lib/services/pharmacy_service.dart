@@ -24,17 +24,7 @@ class PharmacyService {
 
       final response = await _client.dio.get('/pharmacies/', queryParameters: queryParams);
       
-      // DRF might return paginated results (results list) or plain list
-      List dataList;
-      if (response.data is Map && response.data.containsKey('results')) {
-        dataList = response.data['results'] as List;
-      } else if (response.data is List) {
-        dataList = response.data as List;
-      } else {
-        dataList = [];
-      }
-
-      return dataList.map((json) => Pharmacy.fromJson(json as Map<String, dynamic>)).toList();
+      return _client.parseList(response.data, Pharmacy.fromJson);
     } on ApiException {
       rethrow;
     } catch (e) {
@@ -59,16 +49,7 @@ class PharmacyService {
         'pharmacy': pharmacyId,
       });
 
-      List dataList;
-      if (response.data is Map && response.data.containsKey('results')) {
-        dataList = response.data['results'] as List;
-      } else if (response.data is List) {
-        dataList = response.data as List;
-      } else {
-        dataList = [];
-      }
-
-      return dataList.map((json) => PharmacyMedicineStock.fromJson(json as Map<String, dynamic>)).toList();
+      return _client.parseList(response.data, PharmacyMedicineStock.fromJson);
     } on ApiException {
       rethrow;
     } catch (e) {

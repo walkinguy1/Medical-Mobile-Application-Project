@@ -90,6 +90,12 @@ class ApiClient {
     );
   }
 
+  List<T> parseList<T>(dynamic data, T Function(Map<String, dynamic>) fromJson) {
+    final items = data is Map ? data['results'] : data;
+    if (items is! List) return [];
+    return items.map((item) => fromJson(Map<String, dynamic>.from(item as Map))).toList();
+  }
+
   ApiException _convertDioException(DioException e) {
     String message;
     int? statusCode = e.response?.statusCode;

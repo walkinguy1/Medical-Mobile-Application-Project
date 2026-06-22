@@ -27,16 +27,7 @@ class BloodBankService {
 
       final response = await _client.dio.get('/blood-banks/', queryParameters: queryParams);
 
-      List dataList;
-      if (response.data is Map && response.data.containsKey('results')) {
-        dataList = response.data['results'] as List;
-      } else if (response.data is List) {
-        dataList = response.data as List;
-      } else {
-        dataList = [];
-      }
-
-      return dataList.map((json) => BloodBank.fromJson(json as Map<String, dynamic>)).toList();
+      return _client.parseList(response.data, BloodBank.fromJson);
     } on ApiException {
       rethrow;
     } catch (e) {

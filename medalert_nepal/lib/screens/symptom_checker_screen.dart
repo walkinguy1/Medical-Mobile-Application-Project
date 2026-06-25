@@ -158,7 +158,7 @@ class _SymptomCheckerScreenState extends ConsumerState<SymptomCheckerScreen> {
                       Text(
                         symptomCheckAsync.value!['disclaimer'] ?? '',
                         style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                          color: Colors.grey,
+                          color: Theme.of(context).colorScheme.onSurfaceVariant,
                         ),
                       ),
                     ],

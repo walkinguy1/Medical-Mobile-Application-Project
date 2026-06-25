@@ -83,7 +83,7 @@ class PharmacyStockScreen extends ConsumerWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Icon(Icons.store_outlined, size: 64, color: Colors.grey),
+                          Icon(Icons.store_outlined, size: 64, color: Theme.of(context).colorScheme.onSurfaceVariant),
                           const SizedBox(height: 16),
                           Text(
                             'No pharmacies stocking this medicine',
@@ -105,7 +105,7 @@ class PharmacyStockScreen extends ConsumerWidget {
                     return Card(
                       margin: const EdgeInsets.only(bottom: 12),
                       child: ListTile(
-                        leading: _buildAvailabilityIcon(stock.availability),
+                        leading: _buildAvailabilityIcon(context, stock.availability),
                         title: Text(stock.pharmacyDetail?.name ?? 'Unknown Pharmacy'),
                         subtitle: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -141,7 +141,7 @@ class PharmacyStockScreen extends ConsumerWidget {
     );
   }
 
-  Widget _buildAvailabilityIcon(String availability) {
+  Widget _buildAvailabilityIcon(BuildContext context, String availability) {
     switch (availability) {
       case 'available':
         return const Icon(Icons.check_circle, color: Colors.green);
@@ -150,7 +150,7 @@ class PharmacyStockScreen extends ConsumerWidget {
       case 'out_of_stock':
         return const Icon(Icons.cancel, color: Colors.red);
       default:
-        return const Icon(Icons.help_outline, color: Colors.grey);
+        return Icon(Icons.help_outline, color: Theme.of(context).colorScheme.onSurfaceVariant);
     }
   }
 

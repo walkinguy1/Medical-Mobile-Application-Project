@@ -4,7 +4,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../models/emergency_contact.dart';
 import '../widgets/emergency_contact_tile.dart';
 import '../widgets/section_header.dart';
-import '../widgets/stat_tile.dart';
 import 'app_shell.dart';
 import 'qr_scanner_screen.dart';
 
@@ -38,16 +37,6 @@ class HomeScreen extends ConsumerWidget {
                     color: Theme.of(context).colorScheme.onSurfaceVariant,
                   ),
             ),
-            const SizedBox(height: 20),
-            const Wrap(
-              spacing: 12,
-              runSpacing: 12,
-              children: [
-                StatTile(label: 'Medicines', value: '5', icon: Icons.medication_outlined),
-                StatTile(label: 'Blood banks', value: '3', icon: Icons.bloodtype_outlined),
-                StatTile(label: 'Ambulances', value: '4', icon: Icons.local_shipping_outlined),
-              ],
-            ),
             const SizedBox(height: 24),
             const SectionHeader(
               title: 'Quick Actions',
@@ -78,10 +67,16 @@ class HomeScreen extends ConsumerWidget {
                   onTap: () => ref.read(selectedTabProvider.notifier).state = 3,
                 ),
                 _ActionTile(
+                  icon: Icons.medical_information_outlined,
+                  title: 'Symptoms checker',
+                  color: const Color.fromARGB(255, 58, 121, 237),
+                  onTap: () => ref.read(selectedTabProvider.notifier).state = 4,
+                ),
+                _ActionTile(
                   icon: Icons.badge_outlined,
                   title: 'Medical ID',
                   color: const Color(0xFF7C3AED),
-                  onTap: () => ref.read(selectedTabProvider.notifier).state = 4,
+                  onTap: () => ref.read(selectedTabProvider.notifier).state = 5,
                 ),
               ],
             ),

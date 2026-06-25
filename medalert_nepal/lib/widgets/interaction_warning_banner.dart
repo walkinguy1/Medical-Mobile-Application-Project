@@ -76,11 +76,8 @@ class InteractionWarningBanner extends ConsumerWidget {
             ],
           ),
           const SizedBox(height: 8),
-          ...warnings.map((warning) {
-            final drugA = warning['drug_a'] as String;
-            final drugB = warning['drug_b'] as String;
-            final interactionText = warning['interaction_text'] as String;
-            return Padding(
+          for (final warning in warnings)
+            Padding(
               padding: const EdgeInsets.only(bottom: 8.0),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -93,7 +90,7 @@ class InteractionWarningBanner extends ConsumerWidget {
                   const SizedBox(width: 4),
                   Expanded(
                     child: Text(
-                      '$drugA + $drugB: $interactionText',
+                      '${warning['drug_a'] as String} + ${warning['drug_b'] as String}: ${warning['interaction_text'] as String}',
                       style: Theme.of(context).textTheme.bodySmall?.copyWith(
                         color: Theme.of(context).colorScheme.onErrorContainer,
                       ),
@@ -101,13 +98,12 @@ class InteractionWarningBanner extends ConsumerWidget {
                   ),
                 ],
               ),
-            );
-          }),
+            ),
           const SizedBox(height: 4),
           Text(
             'Consult your doctor or pharmacist before taking this medication.',
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
-              color: Theme.of(context).colorScheme.onErrorContainer.withValues(alpha: 0.8),
+              color: Theme.of(context).colorScheme.onErrorContainer.withAlpha(204),
               fontStyle: FontStyle.italic,
             ),
           ),

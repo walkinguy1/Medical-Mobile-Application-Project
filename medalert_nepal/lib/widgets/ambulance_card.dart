@@ -82,9 +82,9 @@ class AmbulanceCard extends StatelessWidget {
                 spacing: 8,
                 runSpacing: 8,
                 children: [
-                  _buildCapabilityChip('24/7 Service', ambulance.is24h, Icons.access_time_filled, Colors.teal),
-                  _buildCapabilityChip('ICU Care', ambulance.hasIcu, Icons.ac_unit, Colors.blue),
-                  _buildCapabilityChip('Oxygen', ambulance.hasOxygen, Icons.air, Colors.indigo),
+                  _buildCapabilityChip(context, '24/7 Service', ambulance.is24h, Icons.access_time_filled, Colors.teal),
+                  _buildCapabilityChip(context, 'ICU Care', ambulance.hasIcu, Icons.ac_unit, Colors.blue),
+                  _buildCapabilityChip(context, 'Oxygen', ambulance.hasOxygen, Icons.air, Colors.indigo),
                 ],
               ),
               if (ambulance.notes.isNotEmpty) ...[
@@ -106,13 +106,13 @@ class AmbulanceCard extends StatelessWidget {
     );
   }
 
-  Widget _buildCapabilityChip(String label, bool isAvailable, IconData icon, Color color) {
+  Widget _buildCapabilityChip(BuildContext context, String label, bool isAvailable, IconData icon, Color color) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
       decoration: BoxDecoration(
-        color: isAvailable ? color.withValues(alpha: 0.08) : Colors.grey[100],
+        color: isAvailable ? color.withValues(alpha: 0.08) : Theme.of(context).colorScheme.surfaceContainerHighest,
         border: Border.all(
-          color: isAvailable ? color.withValues(alpha: 0.3) : Colors.grey[200]!,
+          color: isAvailable ? color.withValues(alpha: 0.3) : Theme.of(context).colorScheme.outlineVariant,
           width: 1,
         ),
         borderRadius: BorderRadius.circular(8),
@@ -123,13 +123,13 @@ class AmbulanceCard extends StatelessWidget {
           Icon(
             icon,
             size: 12,
-            color: isAvailable ? color : Colors.grey[400],
+            color: isAvailable ? color : Theme.of(context).colorScheme.onSurfaceVariant,
           ),
           const SizedBox(width: 4),
           Text(
             label,
             style: TextStyle(
-              color: isAvailable ? color : Colors.grey[500],
+              color: isAvailable ? color : Theme.of(context).colorScheme.onSurfaceVariant,
               fontWeight: FontWeight.w700,
               fontSize: 10,
             ),

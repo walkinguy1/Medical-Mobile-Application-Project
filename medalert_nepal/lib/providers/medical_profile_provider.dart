@@ -13,9 +13,8 @@ class MedicalProfileNotifier extends StateNotifier<AsyncValue<MedicalProfile>> {
     ref.listen<AuthState>(authProvider, (previous, next) {
       if (next.isLoggedIn) {
         fetchProfile();
-      } else {
-        state = AsyncValue.data(MedicalProfile.empty());
       }
+      // Don't reset to empty when not logged in - keep cached data for offline use
     });
     
     _initHiveAndLoad();

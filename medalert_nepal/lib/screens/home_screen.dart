@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../models/emergency_contact.dart';
+import '../models/medical_profile.dart';
 import '../widgets/emergency_contact_tile.dart';
 import '../widgets/section_header.dart';
 import 'app_shell.dart';
 import 'qr_scanner_screen.dart';
+import 'scanned_medical_id_screen.dart';
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
@@ -100,12 +102,21 @@ class HomeScreen extends ConsumerWidget {
                 title: const Text('Scan Medical ID'),
                 subtitle: const Text('Scan a patient\'s emergency QR code'),
                 trailing: const Icon(Icons.chevron_right),
-                onTap: () {
-                  Navigator.of(context).push(
+                onTap: () async {
+                  final result = await Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (_) => const QRScannerScreen(),
                     ),
                   );
+                  if (result != null && result is MedicalProfile) {
+                    if (context.mounted) {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => ScannedMedicalIdScreen(profile: result),
+                        ),
+                      );
+                    }
+                  }
                 },
               ),
             ),
